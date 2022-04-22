@@ -21,13 +21,25 @@
   height: 100%;
 }
 
-.card-img-top {
-  max-width: 100px;
-  margin: 0 auto;
+.card-title a {
+  color: #242455;
+  transition: all 0.15s ease-in-out;
+}
+
+.card-title a:hover {
+  color: #b3b3ce;
+}
+
+.card-text:last-child {
+  margin-bottom: 20px;
 }
 
 .internal-card {
   padding: 10px;
+}
+
+.list-group-item {
+  padding: 20px 0 0 0;
 }
 
 .pin {

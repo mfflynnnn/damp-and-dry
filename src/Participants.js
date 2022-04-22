@@ -8,57 +8,80 @@ const arrayOfObjects = [
     participant: "Life on Mars",
     website: "https://lifeonmarsseattle.com/",
     brandsOffered: "Athletic Brewing Co and The Pathfinder",
-    region: "on Capitol Hill",
     mapLink:
       "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
   },
   {
     participant: "",
     website: "",
-    instagram: "",
     brandsOffered: ["", ""],
+    mapLink: "",
+  },
+  {
+    participant: "",
+    website: "",
+    brandsOffered: ["", ""],
+    mapLink: "",
+  },
+  {
+    participant: "",
+    website: "",
+    brandsOffered: ["", ""],
+    mapLink: "",
+  },
+  {
+    participant: "",
+    website: "",
+    brandsOffered: ["", ""],
+    mapLink: "",
+  },
+  {
+    participant: "",
+    website: "",
+    brandsOffered: ["", ""],
+    mapLink: "",
   },
 ];
 
@@ -81,7 +104,7 @@ export default function Participants() {
         </div>
         <div className="row row2">
           {arrayOfObjects.map(
-            ({ participant, website, brandsOffered, region, mapLink }) => (
+            ({ participant, website, brandsOffered, mapLink }) => (
               <div key={participant} className="col-6 col-md-4">
                 <div className="card">
                   <div className="internal-card">
@@ -94,7 +117,7 @@ export default function Participants() {
                             </a>
                           </h5>
                           <p className="card-text">
-                            {participant} has no-and-low offerings featuring
+                            {participant} has no-and-low offerings, featuring
                             brands such as {brandsOffered}.
                           </p>
                         </li>
