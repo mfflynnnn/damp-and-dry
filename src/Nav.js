@@ -27,19 +27,19 @@ export default function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./about">
+            <Link className="nav-link" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./participants">
+            <Link className="nav-link" to="/participants">
               Bars & Restaurants
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./brands">
+            <Link className="nav-link" to="/brands">
               Brands
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
