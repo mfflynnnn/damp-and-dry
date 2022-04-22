@@ -4,58 +4,34 @@
   flex-direction: row;
   justify-content: center;
   margin: 0 0 0 45px;
-  border-radius: 10px;
 }
 
-.show-counter .time {
-  margin-bottom: -0.5rem;
-  margin-top: -4px;
-}
-
-.show-counter .countdown-link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  padding: 0.5rem;
-  border: 1px solid #ebebeb;
-  border-radius: 0.25rem;
-  text-decoration: none;
-}
-
-.show-counter .countdown,
-.colon {
-  font-size: 75px;
-  line-height: 5.25rem;
-  padding: 0 0.75rem 0 0.75rem;
+.countdown {
+  line-height: calc(10px + 5.25vw);
+  padding: 2% 2% 0 2%;
   align-items: center;
   display: flex;
   flex-direction: column;
   color: #6e6e99;
+  resize: both;
+  overflow: visible;
 }
 
-.show-counter,
-.timer-banner,
+.time {
+  font-size: 5vw;
+  margin: 0 auto;
+}
+
+.DHMS {
+  font-size: 2vw;
+  margin-top: 0 auto;
+}
+
 .colon {
-  padding: 0 0.75rem 0 0.75rem;
-}
-
-.span-display {
-  padding: 0 0 13px 0;
-}
-
-.show-counter .countdown,
-.timer-banner,
-.colon {
-  font-size: 50px;
-  margin: 0;
-}
-
-.show-counter .countdown > span {
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 5vw;
+  line-height: 5.3vw;
+  padding: 1vw;
+  color: #6e6e99;
+  resize: both;
+  overflow: visible;
 }
