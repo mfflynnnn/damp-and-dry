@@ -72,14 +72,14 @@ export default function Brands() {
                       alt="Brand logo"
                     ></img>
                     <div className="card-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
+                      <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
                           <h5 className="card-title">{brand}</h5>
                           <p className="card-text">
                             {brand} is matching {matching}.
                           </p>
                         </li>
-                        <li class="list-group-item">
+                        <li className="list-group-item">
                           Visit {brand} <br />
                           <a href={website} target="_blank" rel="noreferrer">
                             Website

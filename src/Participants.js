@@ -12,67 +12,7 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
   },
   {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
+    participant: "Watershed",
     website: "",
     brandsOffered: ["", ""],
     mapLink: "",
@@ -109,8 +49,8 @@ export default function Participants() {
                 <div className="card">
                   <div className="internal-card">
                     <div className="card-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
+                      <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
                           <h5 className="card-title">
                             <a href={website} target="_blank" rel="noreferrer">
                               {participant}
@@ -121,7 +61,7 @@ export default function Participants() {
                             brands such as {brandsOffered}.
                           </p>
                         </li>
-                        <li class="list-group-item">
+                        <li className="list-group-item">
                           <a href={mapLink} target="_blank" rel="noreferrer">
                             <img className="pin" src={Pin} alt="Location Pin" />
                           </a>

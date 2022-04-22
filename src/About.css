@@ -1,0 +1,13 @@
+.About {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.About h1 {
+  margin: 35px auto;
+  color: #242455;
+}
+
+.About .about-p {
+  padding: 0% 7% 1% 7%;
+}

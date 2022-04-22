@@ -1,22 +1,30 @@
 import Logo from "./damp-and-dry-logo.png";
 import "./App.css";
-import { Link } from "react-router-dom";
+import CountdownTimer from "./CountdownTimer";
+//import { Link } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/*<h1>* COMING SOON *</h1>*/}
-        <img className="App-logo" src={Logo} alt="Damp and Dry logo"></img>
-        <ul className="App-box">
+        <a href="./About">
+          <img className="App-logo" src={Logo} alt="Damp and Dry logo"></img>
+        </a>
+        {/*        <ul className="App-box">
           <li className="left-link">
-            <Link to="/participants">PARTICIPANTS</Link>
+            <Link to="/about">about</Link>
+          </li>
+          <li className="spacer">•</li>
+          <li className="middle-link">
+            <Link to="/participants">bars & restaurants</Link>
           </li>
           <li className="spacer">•</li>
           <li className="right-link">
-            <Link to="/brands">BRANDS</Link>
+            <Link to="/brands">brands</Link>
           </li>
-        </ul>
+  </ul> */}
+        <CountdownTimer />
       </header>
     </div>
   );

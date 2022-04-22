@@ -1,11 +1,12 @@
 import "./Nav.css";
+import Logo from "./damp-and-dry-logo.png";
 import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <Link className="navbar-brand" to="/">
-        Damp & Dry July
+        <img src={Logo} className="nav-logo" alt="Logo"></img>
       </Link>
       <button
         className="navbar-toggler"
@@ -26,8 +27,13 @@ export default function Nav() {
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="./about">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="./participants">
-              Participants
+              Bars & Restaurants
             </a>
           </li>
           <li className="nav-item">
