@@ -9,36 +9,57 @@ export default function About() {
         <Nav />
         <h1>Welcome to Damp & Dry July</h1>
       </header>
-      <div>
+      <div className="about-div">
         <p className="about-p">
-          Cat ipsum dolor sit amet, persian and singapura. Maine coon savannah
-          norwegian forest ragdoll but havana brown. Abyssinian thai and
-          himalayan and kitty cougar. Malkin burmese for tom yet puma birman.
-          Panther norwegian forest. Siberian malkin siberian cougar or leopard
-          and lynx russian blue. American bobtail donskoy and cornish rex jaguar
-          and birman savannah yet egyptian mau. Panther balinese and donskoy so
-          grimalkin american bobtail. Tom donskoy for manx so persian and tom.
-          British shorthair. Cougar jaguar. Tiger cornish rex and bobcat or
-          panther. Bombay bobcat. Abyssinian balinese havana brown turkish
-          angora and american shorthair jaguar bengal. Panther cornish rex tabby
-          ocicat tom. Leopard bombay so himalayan or havana brown and grimalkin
-          for american bobtail. Cheetah. Singapura cheetah. Kitten kitty ocelot
-          cheetah.
+          Some see Dry July as a wellness exercise, others see it as a time of
+          celebration, and some folx don't even know what we're talking about.
+          So what is it, really? Dry July is a time to limit or completely omit
+          alcohol from your diet - if you feel up to the challenge, that is. We
+          can't tell you the exact history of Dry July (Wikipedia wasn't much
+          help), but we CAN say that this year things are going to be a little
+          different.
         </p>
         <p className="about-p">
-          Cat ipsum dolor sit amet, persian and singapura. Maine coon savannah
-          norwegian forest ragdoll but havana brown. Abyssinian thai and
-          himalayan and kitty cougar. Malkin burmese for tom yet puma birman.
-          Panther norwegian forest. Siberian malkin siberian cougar or leopard
-          and lynx russian blue. American bobtail donskoy and cornish rex jaguar
-          and birman savannah yet egyptian mau. Panther balinese and donskoy so
-          grimalkin american bobtail. Tom donskoy for manx so persian and tom.
-          British shorthair. Cougar jaguar. Tiger cornish rex and bobcat or
-          panther. Bombay bobcat. Abyssinian balinese havana brown turkish
-          angora and american shorthair jaguar bengal. Panther cornish rex tabby
-          ocicat tom. Leopard bombay so himalayan or havana brown and grimalkin
-          for american bobtail. Cheetah. Singapura cheetah. Kitten kitty ocelot
-          cheetah.
+          Damp & Dry July is proud to connect Seattleites with
+          low-and-no-alcohol beverage options for a good cause. We have gathered
+          a stellar list of bars, restaurants, and brands that are all here to
+          help you on your path to be damp or dry (at least for July!)
+          Participating <a href="./Participants.js">Bars & Restaurants</a> will
+          serve up a dedicated menu of exquisite cocktails, beer, and wine that
+          are all either very low in alcohol or completely alcohol free.
+        </p>
+        <p className="about-p">
+          A generous portion of the net sales from the non-alcoholic menu at
+          each of the participating bars and restaurants will be donated to{" "}
+          <a
+            href="https://www.peerseattle.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Peer Seattle
+          </a>
+          . Peer Seattle is a local organization which "cultivates powerful,
+          healthy lives by providing peer emotional support and development
+          services to the LGBTQ community impacted by addiction, mental health
+          and/or HIV." While Alcohol Use Disorder can impact anyone, the
+          LGBTQIA+ community statistically suffers more heavily from alcohol
+          abuse and addiction than their heterosexual counterparts. Damp & Dry
+          July comes on the heels of Pride month, and we want to keep that
+          positive and essential momentum going with meaningful action
+          benefiting the local queer community.
+        </p>
+        <p className="about-p">
+          To further the impact of the donations to Peer Seattle, each of our{" "}
+          <a href="./Brands.js">Sponsoring Brands</a> have generously agreed to
+          match a portion of the total donations.
+        </p>
+        <p className="about-p">
+          Living booze-free for the month of July doesn't have to be boring, and
+          it certainly shouldn't be bland! We're not here to take alcohol away
+          from anyone; we're here to provide options to those who want them.
+          Want to join us? Indulge a wide range of "damp and dry" beverages, all
+          while feeling good about what you're doing for your body and for the
+          community. See you at the bar!
         </p>
       </div>
     </div>

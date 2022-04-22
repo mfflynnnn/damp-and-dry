@@ -5,6 +5,13 @@ import Pin from "./icons8-location-100.png";
 
 const arrayOfObjects = [
   {
+    participant: "Dreamland Bar & Diner",
+    website: "https://www.dreamlandfremont.com/",
+    brandsOffered: ["Athletic Brewing Co"],
+    mapLink:
+      "https://www.google.com/maps/place/Dreamland+Bar+%26+Diner/@47.6501148,-122.3516283,15z/data=!4m2!3m1!1s0x0:0x58c5c6016bf51618?sa=X&ved=2ahUKEwjQm93Cnaj3AhUqIzQIHVWbCQIQ_BJ6BAheEAU",
+  },
+  {
     participant: "Life on Mars",
     website: "https://lifeonmarsseattle.com/",
     brandsOffered: "Athletic Brewing Co and The Pathfinder",
@@ -12,16 +19,11 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
   },
   {
-    participant: "Watershed",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
-  },
-  {
-    participant: "",
-    website: "",
-    brandsOffered: ["", ""],
-    mapLink: "",
+    participant: "Watershed Pub & Kitchen",
+    website: "https://www.watershedpub.com/",
+    brandsOffered: ["Lyre's"],
+    mapLink:
+      "https://www.google.com/maps/place/Watershed+Pub+%26+Kitchen/@47.7019446,-122.3277247,17z/data=!3m1!4b1!4m5!3m4!1s0x549013ffb06eec81:0xd7854c72eda7bf6c!8m2!3d47.701941!4d-122.325536",
   },
 ];
 
@@ -31,6 +33,7 @@ export default function Participants() {
       <header>
         <Nav />
         <h1>Participating Bars & Restaurants</h1>
+        <h6>(A to Z)</h6>
       </header>
       <div className="container">
         <div className="row row1">

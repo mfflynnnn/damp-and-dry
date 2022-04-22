@@ -140,7 +140,7 @@ export default function Brands() {
               <div key={brand} className="col-6 col-md-4">
                 <div className="card">
                   <div className="internal-card">
-                    <a href={website} target="_blank">
+                    <a href={website} target="_blank" rel="noreferrer">
                       <img
                         src={logo}
                         className="card-img-top"

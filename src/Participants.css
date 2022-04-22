@@ -1,11 +1,16 @@
-.participants h1 {
-  margin: 35px auto;
-  color: #242455;
-}
-
 .participants {
   text-align: center;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.participants h1 {
+  margin: 35px auto 0 auto;
+  color: #242455;
+}
+
+.participants h6 {
+  margin-bottom: 35px;
+  color: #242455;
 }
 
 .row2 {
