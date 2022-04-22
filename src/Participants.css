@@ -1,5 +1,6 @@
 .participants h1 {
-  margin: 40px auto 30px auto;
+  margin: 35px auto;
+  color: #242455;
 }
 
 .participants {
@@ -7,7 +8,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.container {
+.row2 {
   margin-top: 30px;
 }
 
@@ -27,4 +28,8 @@
 
 .internal-card {
   padding: 10px;
+}
+
+.pin {
+  max-width: 30px;
 }

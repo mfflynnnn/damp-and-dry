@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 import "./Brands.css";
 import ATB from "./atb.jpeg";
 import ABC from "./ABC.png";
@@ -55,7 +56,8 @@ export default function Brands() {
   return (
     <div className="brands">
       <header>
-        <h1>Participating Brands</h1>
+        <Nav />
+        <h1>Brands</h1>
       </header>
       <div className="container">
         <div className="row">

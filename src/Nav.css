@@ -1,0 +1,25 @@
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  margin-left: 3%;
+  margin-right: 0;
+  color: #242455;
+}
+
+.navbar-brand:hover {
+  color: #242455;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+.nav-link {
+  color: #b3b3ce;
+}
+
+.nav-link:hover {
+  color: #242455;
+}

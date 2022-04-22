@@ -1,10 +1,11 @@
-.brands h1 {
-  margin: 40px auto 30px auto;
-}
-
 .brands {
   text-align: center;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.brands h1 {
+  margin: 35px auto;
+  color: #242455;
 }
 
 .col-6,

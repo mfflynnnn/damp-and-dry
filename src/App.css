@@ -29,11 +29,39 @@
   margin-left: 182px;
   display: flex;
   flex-direction: row;
-  margin-top: -43px;
+  margin-top: -55px;
 }
+
 li {
   list-style-type: none;
-  padding: 0 45px 0 45px;
+  padding-bottom: 2px;
+}
+
+.left-link {
+  padding-left: 55px;
+  padding-right: 23px;
+}
+
+.spacer {
+  color: white;
+}
+
+.right-link {
+  padding-left: 23px;
+  padding-right: 55px;
+}
+
+.App a {
+  color: white;
+}
+
+.App a:hover {
+  color: #b3b3ce;
+}
+
+.App .App-box {
+  background-color: #242455;
+  padding: 0;
 }
 
 @media screen and (max-width: 925px) {
