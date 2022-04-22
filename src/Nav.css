@@ -3,12 +3,11 @@
 }
 
 .nav-logo {
-  max-width: 140px;
+  max-width: 100px;
 }
 
 .navbar-brand {
-  margin-left: 1.5%;
-  margin-right: 0;
+  margin: -6px 0 0 1.5%;
   color: #242455;
 }
 
