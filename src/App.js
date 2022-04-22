@@ -11,7 +11,10 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/brands">Participating Brands</Link>
+              <Link to="/participants">PARTICIPANTS</Link>
+            </li>
+            <li>
+              <Link to="/brands">BRANDS</Link>
             </li>
           </ul>
         </nav>

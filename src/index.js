@@ -3,12 +3,14 @@ import * as ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from "./App";
 import Brands from "./Brands.js";
+import Participants from "./Participants.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="Brands" element={<Brands />} />
+      <Route path="Participants" element={<Participants />} />
       <Route
         path="*"
         element={

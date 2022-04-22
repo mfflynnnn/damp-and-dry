@@ -1,0 +1,30 @@
+.participants h1 {
+  margin: 40px auto 30px auto;
+}
+
+.participants {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.col-6,
+.col-md-4 {
+  margin-bottom: 30px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.internal-card {
+  padding: 10px;
+}
