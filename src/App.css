@@ -25,8 +25,15 @@
   font-size: smaller;
 }
 
+.App ul {
+  margin-left: 182px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -43px;
+}
 li {
   list-style-type: none;
+  padding: 0 45px 0 45px;
 }
 
 @media screen and (max-width: 925px) {
