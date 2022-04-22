@@ -4,7 +4,12 @@
 }
 
 .brands h1 {
-  margin: 35px auto;
+  margin: 35px auto 0 auto;
+  color: #242455;
+}
+
+.brands h6 {
+  margin-bottom: 35px;
   color: #242455;
 }
 
@@ -18,7 +23,7 @@
 }
 
 .card-img-top {
-  max-width: 100px;
+  max-width: 130px;
   margin: 0 auto;
 }
 
