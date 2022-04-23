@@ -1,12 +1,12 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import React from "react";
+import { render } from "react-dom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from "./App";
 import About from "./About";
 import Brands from "./Brands.js";
 import Participants from "./Participants.js";
 
-ReactDOM.render(
+render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
