@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import App from "./App";
-import About from "./About";
+import App from "./App.js";
+import About from "./About.js";
 import Brands from "./Brands.js";
 import Participants from "./Participants.js";
 
@@ -10,9 +10,9 @@ render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="About" element={<About />} />
-      <Route path="Brands" element={<Brands />} />
-      <Route path="Participants" element={<Participants />} />
+      <Route path="/participants" element={<Participants />} />
+      <Route path="/brands" element={<Brands />} />
+      <Route path="/about" element={<About />} />
       <Route
         path="*"
         element={

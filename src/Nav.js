@@ -23,7 +23,7 @@ export default function Nav() {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <Link className="nav-link" to="/">
-              Home <span className="sr-only">(current)</span>
+              Home
             </Link>
           </li>
           <li className="nav-item">
@@ -37,7 +37,7 @@ export default function Nav() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/about">
+            <Link className="nav-link" to="/about">
               About
             </Link>
           </li>
