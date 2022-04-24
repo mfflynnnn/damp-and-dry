@@ -1,6 +1,6 @@
 import "./Nav.css";
 import Logo from "./damp-and-dry-logo.png";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -22,24 +22,24 @@ export default function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
               Home <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/participants">
+            <Link className="nav-link" to="/participants">
               Bars & Restaurants
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/brands">
+            <Link className="nav-link" to="/brands">
               Brands
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link" href="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
