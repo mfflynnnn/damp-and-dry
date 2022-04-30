@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+//import Thermometer from "./Thermometer";
 import Drip from "./icons8-water-96.png";
 import Nav from "./Nav";
 
@@ -13,6 +14,7 @@ export default function About() {
           <h2>Low-and-No-Alcohol Drinks for a Good Cause</h2>
         </div>
       </header>
+      {/*<Thermometer /> */}
       <div className="container about-div">
         <div className="row">
           <div className="col-1">
