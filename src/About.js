@@ -8,7 +8,10 @@ export default function About() {
     <div className="About">
       <header>
         <Nav />
-        <h1>Welcome to Damp & Dry July</h1>
+        <div className="about-headers">
+          <h1>Damp & Dry July</h1>
+          <h2>Low-and-No-Alcohol Drinks for a Good Cause</h2>
+        </div>
       </header>
       <div className="container about-div">
         <div className="row">
@@ -37,8 +40,8 @@ export default function About() {
               either very low in alcohol or completely alcohol free.
             </p>
             <p className="about-p">
-              A generous portion of the net sales from the non-alcoholic menu at
-              each of the participating bars and restaurants will be donated to{" "}
+              From every sale of non-alcoholic menu items at participating bars
+              and restaurants, $1 will be donated to{" "}
               <a
                 href="https://www.peerseattle.org/"
                 target="_blank"

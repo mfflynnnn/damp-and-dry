@@ -3,8 +3,11 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.About h1 {
+.about-headers {
   margin: 35px auto;
+}
+
+.About h1 {
   color: #242455;
 }
 

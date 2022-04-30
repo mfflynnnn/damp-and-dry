@@ -2,20 +2,20 @@ import React from "react";
 import Nav from "./Nav";
 import "./Brands.css";
 import ATB from "./ATB.png";
-import ABC from "./ABC.png";
-import Dhos from "./Dhos.png";
-import Dry from "./Dry.png";
-import FBFW from "./FBFW.png";
-import FreeSpirits from "./Free-Spirits.png";
-import Joyus from "./Jøyus.png";
-import Lyres from "./Lyres.png";
-import Monday from "./Monday.png";
-import Noughty from "./Noughty.png";
-import Partake from "./Partake.png";
-import Ritual from "./Ritual.png";
-import Spiritless from "./Spiritless.png";
-import Pathfinder from "./The-Pathfinder.png";
-import Wilderton from "./Wilderton.png";
+//import ABC from "./ABC.png";
+//import Dhos from "./Dhos.png";
+//import Dry from "./Dry.png";
+//import FBFW from "./FBFW.png";
+//import FreeSpirits from "./Free-Spirits.png";
+//import Joyus from "./Jøyus.png";
+//import Lyres from "./Lyres.png";
+//import Monday from "./Monday.png";
+//import Noughty from "./Noughty.png";
+//import Partake from "./Partake.png";
+//import Ritual from "./Ritual.png";
+//import Spiritless from "./Spiritless.png";
+//import Pathfinder from "./The-Pathfinder.png";
+//import Wilderton from "./Wilderton.png";
 
 const arrayOfObjects = [
   {
@@ -23,106 +23,107 @@ const arrayOfObjects = [
     website: "https://allthebitter.com/",
     instagram: "https://www.instagram.com/allthebitter",
     logo: ATB,
-    matching: "up to [$/%]",
+    description:
+      "classically inspired alcohol-free cocktail bitters that lift the spirit.",
   },
-  {
+  /*{
     brand: "Athletic Brewing Company",
     website: "https://athleticbrewing.com/",
     instagram: "https://www.instagram.com/athleticbrewing/",
     logo: ABC,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Dhōs",
     website: "https://dhosspirits.com/",
     instagram: "https://www.instagram.com/dhosspirits/",
     logo: Dhos,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Dry Soda",
     website: "https://drinkdry.com/",
     instagram: "https://www.instagram.com/drysoda/",
     logo: Dry,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "For Bitter For Worse",
     website: "https://forbitterforworse.com/",
     instagram: "https://www.instagram.com/forbitterforworse/",
     logo: FBFW,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Free Spirits",
     website: "https://drinkfreespirits.com/",
     instagram: "https://www.instagram.com/drinkfreespirits/",
     logo: FreeSpirits,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Jøyus",
     website: "https://drinkjoyus.com/",
     instagram: "https://www.instagram.com/drinkjoyus/",
     logo: Joyus,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Lyre's",
     website: "https://lyres.com/",
     instagram: "https://www.instagram.com/lyresspiritco/",
     logo: Lyres,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Monday",
     website: "https://drinkmonday.co/",
     instagram: "https://www.instagram.com/drinkmonday/",
     logo: Monday,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Noughty",
     website: "https://noughtyaf.com/",
     instagram: "https://www.instagram.com/noughtyaf/",
     logo: Noughty,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Partake",
     website: "https://drinkpartake.com/",
     instagram: "https://www.instagram.com/partakebrewing/",
     logo: Partake,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Ritual",
     website: "https://www.ritualzeroproof.com/",
     instagram: "https://www.instagram.com/ritualzeroproof/",
     logo: Ritual,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Spiritless",
     website: "https://spiritless.com/",
     instagram: "https://www.instagram.com/drinkspiritless/",
     logo: Spiritless,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "The Pathfinder",
     website: "https://drinkthepathfinder.com/",
     instagram: "https://www.instagram.com/drinkthepathfinder/",
     logo: Pathfinder,
-    matching: "up to [$/%]",
+    description: "",
   },
   {
     brand: "Wilderton",
     website: "https://wildertonfree.com/",
     instagram: "https://www.instagram.com/wilderton_free/",
     logo: Wilderton,
-    matching: "up to [$/%]",
-  },
+    description: "",
+  }, */
 ];
 
 export default function Brands() {
@@ -136,7 +137,7 @@ export default function Brands() {
       <div className="container">
         <div className="row">
           {arrayOfObjects.map(
-            ({ brand, website, instagram, logo, matching }) => (
+            ({ brand, website, instagram, logo, description }) => (
               <div key={brand} className="col-6 col-md-4">
                 <div className="card">
                   <div className="internal-card">
@@ -152,7 +153,7 @@ export default function Brands() {
                         <li className="list-group-item">
                           <h5 className="card-title">{brand}</h5>
                           <p className="card-text">
-                            {brand} is matching {matching}.
+                            {brand} makes {description}
                           </p>
                         </li>
                         <li className="list-group-item">

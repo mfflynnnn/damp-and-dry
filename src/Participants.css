@@ -47,6 +47,16 @@
   padding: 20px 0 0 0;
 }
 
+.participant-brand-ul {
+  padding: 0 10px 10px 10px;
+  justify-content: space-between;
+}
+
+.participant-brand-li {
+  font-size: small;
+  display: inline-block;
+  padding: 10px;
+}
 .pin {
   max-width: 30px;
 }
