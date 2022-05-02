@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Link to="/participants">
+        <Link to="/about">
           <img className="App-logo" src={Logo} alt="Damp and Dry logo"></img>
         </Link>
         {/*        <ul className="App-box">

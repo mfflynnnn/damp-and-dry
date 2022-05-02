@@ -27,6 +27,11 @@ export default function Nav() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/participants">
               Bars & Restaurants
             </Link>
@@ -34,11 +39,6 @@ export default function Nav() {
           <li className="nav-item">
             <Link className="nav-link" to="/brands">
               Brands
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/about">
-              About
             </Link>
           </li>
         </ul>
