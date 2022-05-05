@@ -30,3 +30,7 @@
 .internal-card {
   padding: 10px;
 }
+
+.brands .internal-card img {
+  max-width: max-content;
+}
