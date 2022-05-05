@@ -1,98 +1,100 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import injectSheet from "react-jss";
 import "./Thermometer.css";
+import $ from "jquery";
 
 export default function Thermometer() {
-  const styles = {
-    countdownWrap: {
-      width: "100%",
-      height: "300px",
-      // border: '1px solid black',
-      padding: "20px",
-      fontFamily: "arial",
-      maxWidth: "650px",
-      margin: "150px auto 300px",
-    },
-    goal: {
-      fontSize: "48px",
-      textAlign: "right",
-      color: "#fff",
-      "@media only screen and(max - width: 640px)": {
-        textAlign: "center",
-      },
-    },
-    glass: {
-      width: "100%",
-      height: "20px",
-      background: "#c7c7c7",
-      borderRadius: "10px",
-      float: "left",
-      overflow: "hidden",
-    },
-    progress: {
-      float: "left",
-      width: "5%",
-      height: "20px",
-      background: "#ff5d50",
-      zIndex: 333,
-      // borderRadius: '5px',
-    },
-    goalStat: {
-      width: "25%",
-      // height: '30px',
-      padding: "10px",
-      float: "left",
-      margin: 0,
-      color: "#fff",
-      "@media only screen and(max - width: 640px)": {
-        width: "50%",
-        textAlign: "center",
-      },
-    },
-    block: {
-      display: "block",
-    },
-    goalLabel: {
-      composes: "$block",
-    },
-    goalNumber: {
-      composes: "$block",
-      fontWeight: "bold",
-    },
-  };
+  function formatCurrency(n, c, d, t) {
+    var s, i, j;
 
-  const Thermometer = ({ classes }) => (
-    <div className={classes.root}>
-      <div className={classes.countdownWrap}>
-        <div className={classes.goal}>$20,000</div>
-        <div className={classes.glass}>
-          <div className={classes.progress} />
-        </div>
-        <div className={classes.goalStat}>
-          <span className={classes.goalNumber}>5%</span>
-          <span className={classes.goalLabel}>Funded</span>
-        </div>
-        <div className={classes.goalStat}>
-          <span className={classes.goalNumber}>$1,000</span>
-          <span className={classes.goalLabel}>Raised</span>
-        </div>
-        <div className={classes.goalStat}>
-          <span className={classes.goalNumber}>
-            <div id="countdown">92</div>
-          </span>
-          <span className={classes.goalLabel}>Days to Go</span>
-        </div>
-        <div className={classes.goalStat}>
-          <span className={classes.goalNumber}>1</span>
-          <span className={classes.goalLabel}>Donors</span>
+    c = isNaN((c = Math.abs(c))) ? 2 : c;
+    d = d === undefined ? "." : d;
+    t = t === undefined ? "," : t;
+
+    s = n < 0 ? "-" : "";
+    i = parseInt((n = Math.abs(+n || 0).toFixed(c)), 10) + "";
+    j = (j = i.length) > 3 ? j % 3 : 0;
+
+    return (
+      s +
+      (j ? i.substr(0, j) + t : "") +
+      i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) +
+      (c
+        ? d +
+          Math.abs(n - i)
+            .toFixed(c)
+            .slice(2)
+        : "")
+    );
+  }
+
+  /**
+   * Thermometer Progress meter.
+   * This function will update the progress element in the "thermometer"
+   * to the updated percentage.
+   * If no parameters are passed in it will read them from the DOM
+   *
+   * @param {Number} goalAmount The Goal amount, this represents the 100% mark
+   * @param {Number} progressAmount The progress amount is the current amount
+   * @param {Boolean} animate Whether to animate the height or not
+   *
+   */
+  function thermometer(goalAmount, progressAmount, animate) {
+    var $thermo = $("#thermometer"),
+      $progress = $(".progress", $thermo),
+      $goal = $(".goal", $thermo),
+      percentageAmount;
+
+    goalAmount = "20000" || parseFloat($goal.text());
+    progressAmount = "2000" || parseFloat($progress.text());
+    percentageAmount = Math.min(
+      Math.round((progressAmount / goalAmount) * 1000) / 10,
+      100
+    ); //make sure we have 1 decimal point
+
+    //let's format the numbers and put them back in the DOM
+    $goal.find(".amount").text("$" + formatCurrency(goalAmount));
+    $progress.find(".amount").text("$" + formatCurrency(progressAmount));
+
+    //let's set the progress indicator
+    $progress.find(".amount").hide();
+    if (animate !== false) {
+      $progress.animate(
+        {
+          height: percentageAmount + "%",
+        },
+        1200,
+        function () {
+          $(this).find(".amount").fadeIn(500);
+        }
+      );
+    } else {
+      $progress.css({
+        height: percentageAmount + "%",
+      });
+      $progress.find(".amount").fadeIn(500);
+    }
+  }
+
+  $(document).ready(function () {
+    //call without the parameters to have it read from the DOM
+    thermometer();
+    // or with parameters if you want to update it using JavaScript.
+    // you can update it live, and choose whether to show the animation
+    // (which you might not if the updates are relatively small)
+    //thermometer( 1000000, 425610, false );
+  });
+  return (
+    <div id="content">
+      <div id="thermometer">
+        <div className="track">
+          <div className="goal">
+            <div className="amount"> 20000 </div>
+          </div>
+          <div className="progress">
+            <div className="amount"> 2000 </div>
+          </div>
         </div>
       </div>
     </div>
   );
-
-  const StyledApp = injectSheet(styles)(Thermometer);
-
-  const rootElement = document.getElementById("root");
-  ReactDOM.render(<StyledApp />, rootElement);
 }

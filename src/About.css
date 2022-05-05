@@ -36,17 +36,3 @@ h2 {
 .carousel-inner .active {
   opacity: 1;
 }
-
-.row {
-  padding: 15px;
-}
-
-.col p {
-  text-align: left;
-}
-
-@media screen and (max-width: 775px) {
-  .empty-col {
-    display: none;
-  }
-}

@@ -16,11 +16,13 @@ export default function About() {
           <h2>Drinking "Low-and-No" for a Cause</h2>
         </div>
       </header>
-      {/*<Thermometer /> */}
-
+      {/*<div className="row">
+         <div className="col-3">
+          <Thermometer />
+  </div>*/}
       <div
         id="carouselExampleIndicators"
-        className="carousel slide carousel-fade"
+        className="carousel slide carousel-fade col-9"
         data-ride="carousel"
       >
         <ol className="carousel-indicators">
@@ -81,5 +83,6 @@ export default function About() {
         </a>
       </div>
     </div>
+    //</div>
   );
 }
