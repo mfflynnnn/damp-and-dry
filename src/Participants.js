@@ -21,6 +21,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Liberty/@47.623578,-122.3128231,15z/data=!4m2!3m1!1s0x0:0xa633c381ed937814?sa=X&ved=2ahUKEwjttMiy07v3AhVwJTQIHQGlArwQ_BJ6BAhvEAU",
   },
   {
+    participant: "Life on Mars",
+    description:
+      "a stylish music-forward bar with a wide range of cocktails and vegan fare.",
+    website: "https://lifeonmarsseattle.com/",
+    brandsOffered: ["Athletic Brewing Co and The Pathfinder"],
+    mapLink:
+      "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
+  },
+  {
     participant: "Stampede Cocktail Club",
     description: "a cool, cozy bar with clever cocktails and dumplings.",
     website: "https://www.stampedecocktailclub.com/",
@@ -29,14 +38,6 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
   },
   /*
-  {
-    participant: "Life on Mars",
-    description: "",
-    website: "https://lifeonmarsseattle.com/",
-    brandsOffered: "Athletic Brewing Co and The Pathfinder",
-    mapLink:
-      "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
-  },
   {
     participant: "Watershed Pub & Kitchen",
     description: "",
