@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
 //import Thermometer from "./Thermometer";
-import Slide1 from "./slide-1.png";
-import Slide2 from "./slide-2.png";
-import Slide3 from "./slide-3.png";
+import Hero from "./Hero.js";
+//import Slide1 from "./slide-1.png";
+//import Slide2 from "./slide-2.png";
+//import Slide3 from "./slide-3.png";
 import Nav from "./Nav";
 
 export default function About() {
@@ -11,15 +12,17 @@ export default function About() {
     <div className="About">
       <header>
         <Nav />
-        <div className="about-headers">
+        {/*<div className="about-headers">
           <h1>Damp & Dry July</h1>
           <h2>Drinking "Low-and-No" for a Cause</h2>
-        </div>
+  </div> */}
+        <Hero />
       </header>
       {/*<div className="row">
          <div className="col-3">
           <Thermometer />
-  </div>*/}
+  </div>*
+      <hr />
       <div
         id="carouselExampleIndicators"
         className="carousel slide carousel-fade col-9"
@@ -82,7 +85,7 @@ export default function About() {
           <span className="sr-only">Next</span>
         </a>
       </div>
+</div> */}
     </div>
-    //</div>
   );
 }
