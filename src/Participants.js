@@ -23,7 +23,7 @@ const arrayOfObjects = [
   {
     participant: "Life on Mars",
     description:
-      "a stylish music-forward bar with a wide range of cocktails and vegan fare.",
+      "a stylish, music-focused bar with a wide range of cocktails and vegan fare.",
     website: "https://lifeonmarsseattle.com/",
     brandsOffered: ["Athletic Brewing Co and The Pathfinder"],
     mapLink:
