@@ -1,0 +1,48 @@
+.Contact {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+}
+
+.Contact h1 {
+  margin: 35px auto 15px auto;
+  color: #242455;
+}
+
+.Contact iframe {
+  text-align: center;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 30px;
+  width: 550px;
+  margin: 0 auto;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #ced4da;
+}
+
+.Contact form {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+#name-capture {
+  text-align: left;
+  max-width: 500px;
+}
+
+#email-capture {
+  max-width: 500px;
+}
+
+#message-capture {
+  max-width: 500px;
+}
+
+.Contact footer {
+  height: 30px;
+}

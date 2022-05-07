@@ -5,7 +5,7 @@ import App from "./App.js";
 import About from "./About.js";
 import Brands from "./Brands.js";
 import Participants from "./Participants.js";
-
+import Contact from "./Contact.js";
 render(
   <BrowserRouter>
     <Routes>
@@ -13,6 +13,7 @@ render(
       <Route path="/participants" element={<Participants />} />
       <Route path="/brands" element={<Brands />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
       <Route
         path="*"
         element={
