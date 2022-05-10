@@ -45,7 +45,7 @@ export default function Thermometer() {
       percentageAmount;
 
     goalAmount = "20000" || parseFloat($goal.text());
-    progressAmount = "2000" || parseFloat($progress.text());
+    progressAmount = "5025" || parseFloat($progress.text());
     percentageAmount = Math.min(
       Math.round((progressAmount / goalAmount) * 1000) / 10,
       100
@@ -85,13 +85,14 @@ export default function Thermometer() {
   });
   return (
     <div id="content">
+      <div className="thermometer-header">Donations to Peer Seattle</div>
       <div id="thermometer">
         <div className="track">
           <div className="goal">
             <div className="amount"> 20000 </div>
           </div>
           <div className="progress">
-            <div className="amount"> 2000 </div>
+            <div className="amount"> 5025 </div>
           </div>
         </div>
       </div>

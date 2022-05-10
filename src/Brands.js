@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import "./Brands.css";
 import ATB from "./ATB.png";
-//import ABC from "./ABC.png";
+import ABC from "./ABC.png";
 import Aperol from "./Aperol.png";
 //import Dhos from "./Dhos.png";
 //import Dry from "./Dry.png";
@@ -15,7 +15,7 @@ import Noughty from "./Noughty.png";
 import Partake from "./Partake.png";
 //import Ritual from "./Ritual.png";
 import Spiritless from "./Spiritless.png";
-//import Pathfinder from "./The-Pathfinder.png";
+import Pathfinder from "./The-Pathfinder.png";
 import Wilderton from "./Wilderton.png";
 
 const arrayOfObjects = [
@@ -27,14 +27,13 @@ const arrayOfObjects = [
     description:
       "classically inspired alcohol-free cocktail bitters that lift the spirit.",
   },
-  /*{
+  {
     brand: "Athletic Brewing Company",
     website: "https://athleticbrewing.com/",
     instagram: "https://www.instagram.com/athleticbrewing/",
     logo: ABC,
     description: "",
   },
-  */
   {
     brand: "Aperol",
     website: "https://www.aperol.com/",
@@ -131,14 +130,13 @@ const arrayOfObjects = [
     description:
       "non-alcoholic spirits for the people who want to live fully but celebrate differently.",
   },
-  /*
   {
     brand: "The Pathfinder",
     website: "https://drinkthepathfinder.com/",
     instagram: "https://www.instagram.com/drinkthepathfinder/",
     logo: Pathfinder,
     description: "",
-  }, */
+  },
   {
     brand: "Wilderton",
     website: "https://wildertonfree.com/",

@@ -1,6 +1,10 @@
 #content {
   width: 300px;
-  margin: 30px auto;
+  margin: auto;
+}
+
+.thermometer-header {
+  margin: 5px;
 }
 
 #thermometer {
@@ -61,8 +65,8 @@
 #thermometer .progress {
   height: 0%;
   width: 100%;
-  background: rgb(20, 100, 20);
-  background: rgba(20, 100, 20, 0.6);
+  background: #242455;
+  background: rgba(36, 36, 85, 0.5);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -86,7 +90,7 @@
   visibility: visible;
   padding: 0 60px 0 5px;
   position: absolute;
-  border-top: 1px solid #060;
-  color: #060;
+  border-top: 1px solid #242455;
+  color: #242455;
   right: 0;
 }

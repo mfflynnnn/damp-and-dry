@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
-//import Thermometer from "./Thermometer";
+import Thermometer from "./Thermometer";
 import Hero from "./Hero.js";
 //import Slide1 from "./slide-1.png";
 //import Slide2 from "./slide-2.png";
 //import Slide3 from "./slide-3.png";
+import Fluid from "./Fluid.svg";
 import Nav from "./Nav";
 
 export default function About() {
@@ -12,80 +13,67 @@ export default function About() {
     <div className="About">
       <header>
         <Nav />
-        {/*<div className="about-headers">
-          <h1>Damp & Dry July</h1>
-          <h2>Drinking "Low-and-No" for a Cause</h2>
-  </div> */}
-        <Hero />
       </header>
-      {/*<div className="row">
-         <div className="col-3">
-          <Thermometer />
-  </div>*
-      <hr />
-      <div
-        id="carouselExampleIndicators"
-        className="carousel slide carousel-fade col-9"
-        data-ride="carousel"
-      >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner" role="listbox">
-          <div className="carousel-item active">
-            <img
-              src={Slide1}
-              className="d-block w-100"
-              alt="Carousel slide 1"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={Slide2}
-              className="d-block w-100"
-              alt="Carousel slide 2"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={Slide3}
-              className="d-block w-100"
-              alt="Carousel slide 3"
-            />
+      <div className="container-fluid">
+        <div
+          className="row hero-block"
+          style={{ backgroundImage: `url(${Fluid})` }}
+        >
+          <div className="col-12 video">
+            <Hero />
           </div>
         </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
+        <div className="row">
+          <div className="col-3 sidebar">
+            <Thermometer />
+          </div>
+          <div className="col-9 main-content">
+            <div className="row">
+              <h1>Feel Good While You Do Good</h1>
+            </div>
+            <div className="row perks">
+              <div className="row perks-headers">
+                <div className="col-4">
+                  <h2>Improve Your Health</h2>
+                </div>
+                <div className="col-4">
+                  <h2>Support Charity</h2>
+                </div>
+                <div className="col-4">
+                  <h2>Enjoy the Good Times</h2>
+                </div>
+              </div>
+              <div className="col-4">
+                <p>
+                  Damp & Dry July is for anyone who wants to feel good and take
+                  care of their health and wellness. The health benefits from
+                  reducing or eliminating alcohol from your diet are many, and
+                  can include better sleep, clearer skin, weight loss, improved
+                  mental health, and more.
+                </p>
+              </div>
+              <div className="col-4">
+                <p>
+                  Participating local businesess will be donating $1 to Peer
+                  Seattle for every low-and-no-alcohol beverage sold. Peer
+                  Seattle supports the LGBTQIA+ community with mental health
+                  resources, addiction recovery services, and support for those
+                  with HIV/AIDS.
+                </p>
+              </div>
+              <div className="col-4">
+                <p>
+                  Going "damp" or "dry" doesn't need to be boring, bland, or
+                  lonely. Enjoy the ritual of a night out with friends, while
+                  remaining in control and in your element. Feel clear headed
+                  the next day, skip the regrets, and remember the great
+                  memories you made.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-</div> */}
     </div>
   );
 }
