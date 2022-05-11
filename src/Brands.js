@@ -4,7 +4,7 @@ import "./Brands.css";
 import ATB from "./ATB.png";
 import ABC from "./ABC.png";
 import Aperol from "./Aperol.png";
-//import Dhos from "./Dhos.png";
+import Dhos from "./Dhos.png";
 //import Dry from "./Dry.png";
 //import FreeSpirits from "./Free-Spirits.png";
 import Gruvi from "./Gruvi.png";
@@ -32,7 +32,8 @@ const arrayOfObjects = [
     website: "https://athleticbrewing.com/",
     instagram: "https://www.instagram.com/athleticbrewing/",
     logo: ABC,
-    description: "",
+    description:
+      "award-winning, vegan-friendly, non-alcoholic beer, fit for all times.",
   },
   {
     brand: "Aperol",
@@ -42,14 +43,15 @@ const arrayOfObjects = [
     description:
       "a unique bittersweet low-alcohol orange aperitivo for a refreshing and complex experience.",
   },
-  /*
+
   {
     brand: "Dhōs",
     website: "https://dhosspirits.com/",
     instagram: "https://www.instagram.com/dhosspirits/",
     logo: Dhos,
-    description: "",
+    description: "great tasting handcrafted non-alcoholic spirits.",
   },
+  /*
   {
     brand: "Dry Soda",
     website: "https://drinkdry.com/",
@@ -135,7 +137,8 @@ const arrayOfObjects = [
     website: "https://drinkthepathfinder.com/",
     instagram: "https://www.instagram.com/drinkthepathfinder/",
     logo: Pathfinder,
-    description: "",
+    description:
+      "a fermented and distilled hemp-based liquid with the intense characteristics of a spirit, with none of the harmful effects of alcohol.",
   },
   {
     brand: "Wilderton",
@@ -166,7 +169,7 @@ export default function Brands() {
                       <img
                         src={logo}
                         className="card-img-top"
-                        alt="Brand logo"
+                        alt="Brands"
                       ></img>
                     </a>
                     <div className="card-body">
