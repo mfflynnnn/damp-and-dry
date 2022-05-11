@@ -48,7 +48,7 @@ export default function Thermometer() {
     console.log($displayProgressAmount);
 
     goalAmount = "20000" || parseFloat($goal.text());
-    progressAmount = "5025" || parseFloat($displayProgressAmount.text());
+    progressAmount = "5175" || parseFloat($displayProgressAmount.text());
     percentageAmount = Math.min(
       Math.round((progressAmount / goalAmount) * 1000) / 10,
       100
