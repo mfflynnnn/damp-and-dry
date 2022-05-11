@@ -86,6 +86,10 @@
   color: #333;
 }
 
-#thermometer .progressAmountLeveler .amount {
-  padding: 0 5px 0 60px;
+#thermometer .progressAmountLeveler {
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
