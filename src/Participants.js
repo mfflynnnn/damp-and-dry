@@ -57,7 +57,7 @@ const arrayOfObjects = [
   },
   {
     participant: "Trade Winds Tavern",
-    description: "an inclusive corner pub meets sports club",
+    description: "an inclusive corner pub with cool supper club vibes.",
     website: "https://www.tradewindstavern.net/",
     brandsOffered: ["Coming Soon!"],
     mapLink:
