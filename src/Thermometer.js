@@ -38,14 +38,20 @@ export default function Thermometer() {
    * @param {Boolean} animate Whether to animate the height or not
    *
    */
-  function thermometer(goalAmount, progressAmount, animate) {
+  function thermometer(
+    goalAmount,
+    progressAmount,
+    displayProgressAmount,
+    animate
+  ) {
     var $thermo = $("#thermometer"),
       $progress = $(".progress", $thermo),
+      $displayProgressAmount = $(".progressAmountLeveler", $thermo),
       $goal = $(".goal", $thermo),
       percentageAmount;
 
     goalAmount = "20000" || parseFloat($goal.text());
-    progressAmount = "5025" || parseFloat($progress.text());
+    progressAmount = "5025" || parseFloat($displayProgressAmount.text());
     percentageAmount = Math.min(
       Math.round((progressAmount / goalAmount) * 1000) / 10,
       100
@@ -53,7 +59,9 @@ export default function Thermometer() {
 
     //let's format the numbers and put them back in the DOM
     $goal.find(".amount").text("$" + formatCurrency(goalAmount));
-    $progress.find(".amount").text("$" + formatCurrency(progressAmount));
+    $displayProgressAmount
+      .find(".amount")
+      .text("$" + formatCurrency(progressAmount));
 
     //let's set the progress indicator
     $progress.find(".amount").hide();
@@ -91,9 +99,10 @@ export default function Thermometer() {
           <div className="goal">
             <div className="amount"> 20000 </div>
           </div>
-          <div className="progress">
-            <div className="amount"> 5025 </div>
-          </div>
+          <div className="progress"></div>
+        </div>
+        <div className="progressAmountLeveler">
+          <div className="amount"> 999 </div>
         </div>
       </div>
     </div>
