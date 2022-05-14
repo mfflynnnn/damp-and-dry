@@ -13,6 +13,7 @@ export default function About() {
     <div className="About">
       <header>
         <Nav />
+        <h1>Damp & Dry July</h1>
       </header>
       <div className="container-fluid">
         <div
@@ -24,26 +25,24 @@ export default function About() {
           </div>
         </div>
         <div className="row">
-          <div className="col-3 sidebar">
+          <div className="col-12 thermometer">
             <Thermometer />
           </div>
-          <div className="col-9 main-content">
+        </div>
+        <div className="row main-content">
+          <div className="col-12">
             <div className="row">
-              <h1>Feel Good While You Do Good</h1>
+              <div className="col-12"></div>
+              <h2>Feel Good While You Do Good</h2>
             </div>
             <div className="row perks">
-              <div className="row perks-headers">
-                <div className="col-4">
-                  <h2>Improve Your Health</h2>
-                </div>
-                <div className="col-4">
-                  <h2>Support Charity</h2>
-                </div>
-                <div className="col-4">
-                  <h2>Enjoy the Good Times</h2>
-                </div>
-              </div>
-              <div className="col-4">
+              {/*<div className="row perks-headers">
+              <div className="col-12"></div>
+              <div className="col-12"></div>
+              <div className="col-12"></div>
+  </div>*/}
+              <div className="col-12 col-lg-4">
+                <h3>Improve Your Health</h3>
                 <p>
                   Damp & Dry July is for anyone who wants to feel good and take
                   care of their health and wellness. The health benefits from
@@ -51,8 +50,10 @@ export default function About() {
                   can include better sleep, clearer skin, weight loss, improved
                   mental health, and more.
                 </p>
+                <hr></hr>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
+                <h3>Support Charity</h3>
                 <p>
                   Participating local businesess will be donating $1 to Peer
                   Seattle for every low-and-no-alcohol beverage sold. Peer
@@ -60,8 +61,10 @@ export default function About() {
                   resources, addiction recovery services, and support for those
                   with HIV/AIDS.
                 </p>
+                <hr></hr>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
+                <h3>Enjoy the Good Times</h3>
                 <p>
                   Going "damp" or "dry" doesn't need to be boring, bland, or
                   lonely. Enjoy the ritual of a night out with friends, while

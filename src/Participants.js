@@ -104,7 +104,7 @@ export default function Participants() {
         <div className="row row2">
           {arrayOfObjects.map(
             ({ participant, description, website, brandsOffered, mapLink }) => (
-              <div key={participant} className="col-6 col-md-4">
+              <div key={participant} className="col-12 col-md-6 col-lg-4">
                 <div className="card">
                   <div className="internal-card">
                     <div className="card-body">

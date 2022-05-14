@@ -3,17 +3,25 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.About h1 {
+  background: #f8f9fa;
+  color: #242455;
+  margin: 0;
+  padding: 15px 0 30px 0;
+}
+
 .hero-block .video {
   padding: 30px;
 }
 
-.sidebar {
+.About .thermometer {
   padding: 35px;
-  border-right: 1px solid #242455;
-  box-shadow: 5px 5px 5px rgba(36, 36, 85, 0.2);
+  /*box-shadow: 5px 5px 5px rgba(36, 36, 85, 0.2);*/
 }
 
 .main-content {
+  background: #242455;
+  color: white;
   padding: 35px;
 }
 
@@ -30,4 +38,16 @@
 .About .main-content p {
   text-align: left;
   padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-block .video {
+    padding: 1vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .About hr {
+    visibility: hidden;
+  }
 }

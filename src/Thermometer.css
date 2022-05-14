@@ -1,6 +1,9 @@
 #content {
-  width: 300px;
   margin: auto;
+}
+
+#content .peer-logo {
+  max-width: 10%;
 }
 
 .thermometer-header {

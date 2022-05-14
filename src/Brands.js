@@ -162,7 +162,7 @@ export default function Brands() {
         <div className="row">
           {arrayOfObjects.map(
             ({ brand, website, instagram, logo, description }) => (
-              <div key={brand} className="col-6 col-md-4">
+              <div key={brand} className="col-12 col-md-6 col-lg-4">
                 <div className="card">
                   <div className="internal-card">
                     <a href={website} target="_blank" rel="noreferrer">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Thermometer.css";
 import $ from "jquery";
+import Peer from "./peer-seattle_logo.png";
 
 export default function Thermometer() {
   function formatCurrency(n, c, d, t) {
@@ -103,18 +104,25 @@ export default function Thermometer() {
   });
   return (
     <div id="content">
-      <div className="thermometer-header">Donations to Peer Seattle</div>
-      <div id="thermometer">
-        <div className="track">
-          <div className="goal">
-            <div className="amount"> </div>
-          </div>
-          <div className="progress"></div>
-          <div className="progressAmountLeveler">
-            <div className="amount"> </div>
+      <div className="thermometer-header">
+        <h3>
+          <img className="peer-logo" src={Peer} alt="Peer logo"></img>Donations
+          to Peer Seattle
+        </h3>
+      </div>
+      <center>
+        <div id="thermometer">
+          <div className="track">
+            <div className="goal">
+              <div className="amount"> </div>
+            </div>
+            <div className="progress"></div>
+            <div className="progressAmountLeveler">
+              <div className="amount"> </div>
+            </div>
           </div>
         </div>
-      </div>
+      </center>
     </div>
   );
 }
