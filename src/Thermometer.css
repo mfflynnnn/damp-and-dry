@@ -10,6 +10,10 @@
   margin: 5px;
 }
 
+.thermometer-header h3 {
+  font-size: calc(1.2rem + 0.6vw);
+}
+
 #thermometer {
   width: 70px;
   height: 300px;

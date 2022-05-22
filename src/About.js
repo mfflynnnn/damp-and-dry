@@ -24,9 +24,18 @@ export default function About() {
             <Hero />
           </div>
         </div>
-        <div className="row">
+        <div className="row donation-row">
           <div className="col-12 thermometer">
             <Thermometer />
+            <a
+              href="https://www.paypal.com/donate/?hosted_button_id=AFWVPSRLE2M7L"
+              className="btn btn-primary"
+              role="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Donate to Peer Seattle
+            </a>
           </div>
         </div>
         <div className="row main-content">
@@ -55,11 +64,11 @@ export default function About() {
               <div className="col-12 col-lg-4">
                 <h3>Support Charity</h3>
                 <p>
-                  Participating local businesess will be donating $1 to Peer
-                  Seattle for every low-and-no-alcohol beverage sold. Peer
-                  Seattle supports the LGBTQIA+ community with mental health
-                  resources, addiction recovery services, and support for those
-                  with HIV/AIDS.
+                  Participating local businesess are donating $1 to Peer Seattle
+                  for every low-and-no-alcohol beverage sold. Peer Seattle
+                  supports the LGBTQIA+ community with mental health resources,
+                  addiction recovery services, and support for those with
+                  HIV/AIDS.
                 </p>
                 <hr></hr>
               </div>

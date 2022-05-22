@@ -19,6 +19,17 @@
   /*box-shadow: 5px 5px 5px rgba(36, 36, 85, 0.2);*/
 }
 
+.About .donation-row {
+  align-items: center;
+}
+
+.About .btn {
+  border-radius: 8px;
+  margin: 25px;
+  font-size: larger;
+  box-shadow: 5px 5px 5px rgba(36, 36, 85, 0.2);
+}
+
 .main-content {
   background: #242455;
   color: white;
