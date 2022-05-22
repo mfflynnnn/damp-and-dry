@@ -27,20 +27,20 @@ const arrayOfObjects = [
       "classically inspired alcohol-free cocktail bitters that lift the spirit.",
   },
   {
-    brand: "Athletic Brewing Company",
-    website: "https://athleticbrewing.com/",
-    instagram: "https://www.instagram.com/athleticbrewing/",
-    logo: ABC,
-    description:
-      "award-winning, vegan-friendly, non-alcoholic beer, fit for all times.",
-  },
-  {
     brand: "Aperol",
     website: "https://www.aperol.com/",
     instagram: "https://www.instagram.com/aperolspritzofficial/",
     logo: Aperol,
     description:
       "a unique bittersweet low-alcohol orange aperitivo for a refreshing and complex experience.",
+  },
+  {
+    brand: "Athletic Brewing Company",
+    website: "https://athleticbrewing.com/",
+    instagram: "https://www.instagram.com/athleticbrewing/",
+    logo: ABC,
+    description:
+      "award-winning, vegan-friendly, non-alcoholic beer, fit for all times.",
   },
   {
     brand: "Buzzkill",
