@@ -4,16 +4,15 @@ import "./Brands.css";
 import ATB from "./ATB.png";
 import ABC from "./ABC.png";
 import Aperol from "./Aperol.png";
+import Buzzkill from "./Buzzkill.png";
 import Dhos from "./Dhos.png";
-//import Dry from "./Dry.png";
-//import FreeSpirits from "./Free-Spirits.png";
+import Dry from "./Dry.png";
 import Gruvi from "./Gruvi.png";
 import Joyus from "./Jøyus.png";
 //import Lyres from "./Lyres.png";
-//import Monday from "./Monday.png";
 import Noughty from "./Noughty.png";
 import Partake from "./Partake.png";
-//import Ritual from "./Ritual.png";
+import Ritual from "./Ritual.png";
 import Spiritless from "./Spiritless.png";
 import Pathfinder from "./The-Pathfinder.png";
 import Wilderton from "./Wilderton.png";
@@ -43,30 +42,30 @@ const arrayOfObjects = [
     description:
       "a unique bittersweet low-alcohol orange aperitivo for a refreshing and complex experience.",
   },
-
+  {
+    brand: "Buzzkill",
+    website: "https://buzzkillwines.com/",
+    instagram: "https://www.instagram.com/buzzkillwines/?hl=en",
+    logo: Buzzkill,
+    description:
+      "non-alcoholic sauv blanc for people who can’t, shouldn’t, or don’t want to get f#^*ed up.",
+  },
   {
     brand: "Dhōs",
     website: "https://dhosspirits.com/",
     instagram: "https://www.instagram.com/dhosspirits/",
     logo: Dhos,
-    description: "great tasting handcrafted non-alcoholic spirits.",
+    description:
+      "great tasting handcrafted non-alcoholic spirits in three fine expressions.",
   },
-  /*
   {
-    brand: "Dry Soda",
+    brand: "Dry",
     website: "https://drinkdry.com/",
     instagram: "https://www.instagram.com/drysoda/",
     logo: Dry,
-    description: "",
+    description:
+      "Dry Botanical Bubbly: the zero-proof option for every celebration.",
   },
-  {
-    brand: "Free Spirits",
-    website: "https://drinkfreespirits.com/",
-    instagram: "https://www.instagram.com/drinkfreespirits/",
-    logo: FreeSpirits,
-    description: "",
-  },
-  */
   {
     brand: "Grüvi",
     website: "https://www.getgruvi.com/",
@@ -91,13 +90,6 @@ const arrayOfObjects = [
     logo: Lyres,
     description: "",
   },
-  {
-    brand: "Monday",
-    website: "https://drinkmonday.co/",
-    instagram: "https://www.instagram.com/drinkmonday/",
-    logo: Monday,
-    description: "",
-  },
 */
   {
     brand: "Noughty",
@@ -115,15 +107,14 @@ const arrayOfObjects = [
     description:
       "a wide selection of authentically brewed, low-calorie-count, non-alcoholic beer.",
   },
-  /*
   {
     brand: "Ritual",
     website: "https://www.ritualzeroproof.com/",
     instagram: "https://www.instagram.com/ritualzeroproof/",
     logo: Ritual,
-    description: "",
+    description:
+      "makes 'liquor replacements', with zero calories, zero alcohol, and zero regrets.",
   },
-*/
   {
     brand: "Spiritless",
     website: "https://spiritless.com/",
