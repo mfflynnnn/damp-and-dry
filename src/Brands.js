@@ -10,6 +10,7 @@ import Dry from "./Dry.png";
 import Gruvi from "./Gruvi.png";
 import Joyus from "./Jøyus.png";
 //import Lyres from "./Lyres.png";
+import NLL from "./NLL.png";
 import Noughty from "./Noughty.png";
 import Partake from "./Partake.png";
 import Ritual from "./Ritual.png";
@@ -82,15 +83,14 @@ const arrayOfObjects = [
     description:
       "non-alcoholic wine that not only tastes like wine, but tastes like great wine.",
   },
-  /*
   {
-    brand: "Lyre's",
-    website: "https://lyres.com/",
-    instagram: "https://www.instagram.com/lyresspiritco/",
-    logo: Lyres,
-    description: "",
+    brand: "NLL",
+    website: "https://us.salcombegin.com/new-london-light",
+    instagram: "https://www.instagram.com/newlondonlight/?hl=en",
+    logo: NLL,
+    description:
+      "a bold collection of non-alcoholic spirits and aperitifs, bringing innovative flavour combinations into a new era of taste.",
   },
-*/
   {
     brand: "Noughty",
     website: "https://noughtyaf.com/",
