@@ -5,12 +5,29 @@ import Pin from "./icons8-location-100.png";
 
 const arrayOfObjects = [
   {
+    participant: "Cycle Dogs",
+    description: "THE go-to spot for vegan fast food served in a casual space.",
+    website: "https://cycle-dogs.square.site/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/Cycle+Dogs/@47.6683179,-122.3808423,17z/data=!4m12!1m6!3m5!1s0x549015b818b30625:0xda390ded2885ba7c!2sCycle+Dogs!8m2!3d47.6683255!4d-122.378742!3m4!1s0x549015b818b30625:0xda390ded2885ba7c!8m2!3d47.6683255!4d-122.378742",
+  },
+  {
     participant: "Dreamland Bar & Diner",
     description: "a funky spot for cocktails and comfort food.",
     website: "https://www.dreamlandfremont.com/",
     brandsOffered: ["Athletic Brewing Co", "Spiritless", "The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Dreamland+Bar+%26+Diner/@47.6501148,-122.3516283,15z/data=!4m2!3m1!1s0x0:0x58c5c6016bf51618?sa=X&ved=2ahUKEwjQm93Cnaj3AhUqIzQIHVWbCQIQ_BJ6BAheEAU",
+  },
+  {
+    participant: "Lariat bar",
+    description:
+      "your White Center home for killer concessions and bodacious beverages.",
+    website: "https://www.lariatbarseattle.com/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/Lariat+bar/@47.5147867,-122.3554386,15z/data=!4m5!3m4!1s0x0:0x939ea113018f19c9!8m2!3d47.5147867!4d-122.3554386",
   },
   {
     participant: "Liberty Bar",
