@@ -12,7 +12,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  color: #6e6e99;
+  color: #eb5f4e;
   resize: both;
   overflow: visible;
 }
@@ -31,7 +31,7 @@
   font-size: 5vw;
   line-height: 5.3vw;
   padding: 1vw;
-  color: #6e6e99;
+  color: #eb5f4e;
   resize: both;
   overflow: visible;
 }
