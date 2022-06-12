@@ -1,5 +1,5 @@
 import "./Nav.css";
-import Logo from "./damp-and-dry-logo.png";
+import Logo from "./dampanddry.png";
 import { Link } from "react-router-dom";
 
 export default function Nav() {

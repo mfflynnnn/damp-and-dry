@@ -7,19 +7,17 @@ import Hero from "./Hero.js";
 //import Slide3 from "./slide-3.png";
 import Fluid from "./Fluid.svg";
 import Nav from "./Nav";
+import RectLogo from "./dampanddry2.png";
 
 export default function About() {
   return (
     <div className="About">
       <header>
         <Nav />
-        <h1>Damp & Dry July</h1>
+        <img src={RectLogo} alt="logo" className="rectlogo"></img>
       </header>
       <div className="container-fluid">
-        <div
-          className="row hero-block"
-          style={{ backgroundImage: `url(${Fluid})` }}
-        >
+        <div className="row hero-block">
           <div className="col-12 video">
             <Hero />
           </div>
