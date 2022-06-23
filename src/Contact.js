@@ -7,7 +7,6 @@ export default function Contact() {
     <div className="Contact">
       <header>
         <Nav />
-        <h1>Contact Us</h1>
       </header>
       <main>
         <iframe

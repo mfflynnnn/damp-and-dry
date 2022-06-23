@@ -1,16 +1,25 @@
 .participants {
   text-align: center;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("dampanddryweb-bkg-02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.participants h1 {
-  margin: 35px auto 0 auto;
-  color: #242455;
+.participants .main-content {
+  background-color: transparent;
+}
+
+.participants h1,
+.participants h6 {
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #eb5f4e;
 }
 
 .participants h6 {
-  margin-bottom: 35px;
-  color: #242455;
+  margin-left: 10px;
 }
 
 .row2 {
@@ -22,17 +31,22 @@
   margin-bottom: 30px;
 }
 
-.card {
-  height: 100%;
+.participants .card {
+  height: 325px;
+  border: 3px solid #eb5f4e;
+  color: #eb5f4e;
+  background: white;
+  margin: 5px;
+}
+
+.card-title {
+  text-transform: uppercase;
 }
 
 .card-title a {
-  color: #242455;
+  color: #eb5f4e;
+  font-weight: 800;
   transition: all 0.15s ease-in-out;
-}
-
-.card-title a:hover {
-  color: #b3b3ce;
 }
 
 .card-text:last-child {
@@ -55,8 +69,23 @@
 .participant-brand-li {
   font-size: small;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
 }
+
 .pin {
   max-width: 30px;
+}
+
+.participants .row-1 {
+  height: 30px;
+}
+
+.participants .row-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 175px;
+}
+
+.participants .row-3 {
+  height: 40px;
 }

@@ -1,22 +1,21 @@
 .About {
   text-align: center;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.About h1 {
-  background: #f8f9fa;
-  color: #242455;
-  margin: 0;
-  padding: 15px 0 30px 0;
+.About h1,
+h2 {
+  color: white;
+}
+
+.About .About-content {
+  background-image: url("dampanddryweb-bkg-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-block .video {
-  background-color: #eb5f4e;
   padding: 30px;
-}
-
-.rectlogo {
-  max-width: 40%;
 }
 
 .About .thermometer {
@@ -28,6 +27,11 @@
   align-items: center;
 }
 
+.About .peer-logo {
+  width: 50%;
+  height: auto;
+}
+
 .About .btn {
   border-radius: 8px;
   margin: 25px;
@@ -36,9 +40,13 @@
 }
 
 .main-content {
-  background: #eb5f4e;
+  background-color: #eb5f4e;
   color: white;
   padding: 35px;
+}
+
+.tagline {
+  font-size: 50px;
 }
 
 .main-content .perks {

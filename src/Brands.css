@@ -1,16 +1,23 @@
 .brands {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("dampanddryweb-bkg-03.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 35px;
 }
 
-.brands h1 {
-  margin: 35px auto 0 auto;
-  color: #242455;
+.brands h1,
+.brands h6 {
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: white;
 }
 
 .brands h6 {
-  margin-bottom: 35px;
-  color: #242455;
+  margin-left: 10px;
 }
 
 .col-6,
@@ -20,17 +27,58 @@
 
 .card {
   height: 100%;
+  background-color: transparent;
+  border: none;
 }
 
 .card-img-top {
   max-width: 130px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .internal-card {
   padding: 10px;
 }
 
+.brands .card-title {
+  color: #eb5f4e;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.brands .card-container .list-group-item {
+  border: none;
+  padding: 0;
+}
+
 .brands .internal-card img {
   max-width: max-content;
+}
+
+.brands .card-body {
+  border: 3px solid #eb5f4e;
+  background: white;
+  height: 200px;
+}
+
+.brands .row-1 {
+  height: 50px;
+}
+
+.brands .row-2 {
+  height: 75px;
+}
+
+.brands .card-container {
+  display: flex;
+}
+
+.brands .row-3 {
+  height: 50px;
+  padding: 15px;
+}
+
+.row-3 a {
+  color: #eb5f4e;
 }

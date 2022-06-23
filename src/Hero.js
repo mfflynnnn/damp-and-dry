@@ -8,8 +8,8 @@ export default function Hero() {
         url={heroVideo}
         autoPlay
         controls
-        width="60%"
-        height="60%"
+        width="75%"
+        height="75%"
         className="video"
       />
     </center>

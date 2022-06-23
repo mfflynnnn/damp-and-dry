@@ -12,6 +12,7 @@
 
 .thermometer-header h3 {
   font-size: calc(1.2rem + 0.6vw);
+  color: #eb5f4e;
 }
 
 #thermometer {
@@ -26,11 +27,13 @@
   -o-border-radius: 12px;
   border-radius: 12px;
 
+  /*
   -webkit-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
   -moz-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
   -ms-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
   -o-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
   box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+  */
 }
 
 #thermometer .track {

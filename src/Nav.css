@@ -1,32 +1,31 @@
-.navbar {
-  padding: 15px 0 15px 0;
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -5px;
+  width: calc(100% / 6);
+  z-index: 600;
+  flex: 1;
 }
 
-#navbarNav {
-  justify-content: right;
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
 .nav-logo {
-  max-width: 100px;
+  max-width: 100%;
 }
 
-.navbar-brand {
-  margin: -6px 0 0 1.5%;
-  color: #242455;
-}
-
-.navbar-brand:hover {
-  color: #242455;
-}
-
-.nav-item {
-  padding-right: 60px;
-}
-
-.nav-link {
-  color: #b3b3ce;
-}
-
-.nav-link:hover {
-  color: #242455;
+.Nav button {
+  color: #eb5f4e;
 }

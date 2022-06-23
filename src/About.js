@@ -1,30 +1,31 @@
 import React from "react";
 import "./About.css";
-import Thermometer from "./Thermometer";
-import Hero from "./Hero.js";
-//import Slide1 from "./slide-1.png";
-//import Slide2 from "./slide-2.png";
-//import Slide3 from "./slide-3.png";
-import Fluid from "./Fluid.svg";
 import Nav from "./Nav";
-import RectLogo from "./dampanddry2.png";
+import Hero from "./Hero.js";
+import Peer from "./peer-seattle_logo.png";
+import Thermometer from "./Thermometer";
 
 export default function About() {
   return (
-    <div className="About">
-      <header>
+    <div className="About row">
+      <div className="nav-container col-2">
         <Nav />
-        <img src={RectLogo} alt="logo" className="rectlogo"></img>
-      </header>
-      <div className="container-fluid">
+      </div>
+      <div className="About-content col-10">
         <div className="row hero-block">
           <div className="col-12 video">
+            <h1>Welcome!</h1>
+            <h2>Here's a little about us</h2>
             <Hero />
           </div>
         </div>
         <div className="row donation-row">
-          <div className="col-12 thermometer">
+          <div className="col-2"></div>
+          <div className="col-4 thermometer">
             <Thermometer />
+          </div>
+          <div className="col-4">
+            <img className="peer-logo" src={Peer} alt="Peer logo"></img>
             <a
               href="https://www.paypal.com/donate/?hosted_button_id=AFWVPSRLE2M7L"
               className="btn btn-primary"
@@ -35,12 +36,13 @@ export default function About() {
               Donate to Peer Seattle
             </a>
           </div>
+          <div className="col-2"></div>
         </div>
         <div className="row main-content">
           <div className="col-12">
             <div className="row">
               <div className="col-12"></div>
-              <h2>Feel Good While You Do Good</h2>
+              <h3 className="tagline">Feel Good While You Do Good</h3>
             </div>
             <div className="row perks">
               {/*<div className="row perks-headers">
@@ -49,7 +51,7 @@ export default function About() {
               <div className="col-12"></div>
   </div>*/}
               <div className="col-12 col-lg-4">
-                <h3>Improve Your Health</h3>
+                <h4>Improve Your Health</h4>
                 <p>
                   Damp & Dry July is for anyone who wants to feel good and take
                   care of their health and wellness. The health benefits from
@@ -60,7 +62,7 @@ export default function About() {
                 <hr></hr>
               </div>
               <div className="col-12 col-lg-4">
-                <h3>Support Charity</h3>
+                <h4>Support Charity</h4>
                 <p>
                   Participating local businesess are donating $1 to Peer Seattle
                   for every low-and-no-alcohol beverage sold. Peer Seattle
@@ -71,7 +73,7 @@ export default function About() {
                 <hr></hr>
               </div>
               <div className="col-12 col-lg-4">
-                <h3>Enjoy the Good Times</h3>
+                <h4>Enjoy the Good Times</h4>
                 <p>
                   Going "damp" or "dry" doesn't need to be boring, bland, or
                   lonely. Enjoy the ritual of a night out with friends, while

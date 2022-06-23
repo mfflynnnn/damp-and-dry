@@ -143,51 +143,80 @@ const arrayOfObjects = [
 
 export default function Brands() {
   return (
-    <div className="brands">
-      <header>
+    <div className="brands row">
+      <div className="nav-container col-2">
         <Nav />
-        <h1>Brands</h1>
-        <h6>(A to Z)</h6>
-      </header>
-      <div className="container">
-        <div className="row">
-          {arrayOfObjects.map(
-            ({ brand, website, instagram, logo, description }) => (
-              <div key={brand} className="col-12 col-md-6 col-lg-4">
-                <div className="card">
-                  <div className="internal-card">
-                    <a href={website} target="_blank" rel="noreferrer">
-                      <img
-                        src={logo}
-                        className="card-img-top"
-                        alt="Brands"
-                      ></img>
-                    </a>
-                    <div className="card-body">
-                      <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
-                          <h5 className="card-title">{brand}</h5>
-                          <p className="card-text">
-                            {brand} makes {description}
-                          </p>
-                        </li>
-                        <li className="list-group-item">
-                          Visit {brand} <br />
-                          <a href={website} target="_blank" rel="noreferrer">
-                            Website
-                          </a>{" "}
-                          |{" "}
-                          <a href={instagram} target="_blank" rel="noreferrer">
-                            Instagram
-                          </a>
-                        </li>
-                      </ul>
+      </div>
+      <div className="col-10">
+        <header>
+          <span>
+            <h1>Brands</h1>
+          </span>
+          <span>
+            <h6>(A to Z)</h6>
+          </span>
+        </header>
+        <div className="container">
+          <div className="row">
+            {arrayOfObjects.map(
+              ({ brand, website, instagram, logo, description }) => (
+                <div key={brand} className="col-12 col-md-6 col-lg-4">
+                  <div className="card">
+                    <div className="internal-card">
+                      <a href={website} target="_blank" rel="noreferrer">
+                        <img
+                          src={logo}
+                          className="card-img-top"
+                          alt="Brands"
+                        ></img>
+                      </a>
+                      <div className="card-body card-container">
+                        <ul className="list-group list-group-flush">
+                          <li className="list-group-item">
+                            <div className="row row-1">
+                              <div className="col">
+                                <h5 className="card-title">{brand}</h5>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div className="row row-2">
+                              <div className="col">
+                                <p className="card-text">
+                                  {brand} makes {description}
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <div className="row row-3">
+                            <div className="col">
+                              <li className="list-group-item">
+                                <a
+                                  href={website}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Website
+                                </a>{" "}
+                                |{" "}
+                                <a
+                                  href={instagram}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Instagram
+                                </a>
+                              </li>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            )
-          )}
+              )
+            )}
+          </div>
         </div>
       </div>
     </div>

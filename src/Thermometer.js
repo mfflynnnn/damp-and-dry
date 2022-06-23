@@ -1,7 +1,6 @@
 import React from "react";
 import "./Thermometer.css";
 import $ from "jquery";
-import Peer from "./peer-seattle_logo.png";
 
 export default function Thermometer() {
   function formatCurrency(n, c, d, t) {
@@ -46,10 +45,8 @@ export default function Thermometer() {
       $goal = $(".goal", $thermo),
       percentageAmount;
 
-    console.log($displayProgressAmount);
-
     goalAmount = "20000" || parseFloat($goal.text());
-    progressAmount = "8175" || parseFloat($displayProgressAmount.text());
+    progressAmount = "9625" || parseFloat($displayProgressAmount.text());
     percentageAmount = Math.min(
       Math.round((progressAmount / goalAmount) * 1000) / 10,
       100
@@ -105,10 +102,7 @@ export default function Thermometer() {
   return (
     <div id="content">
       <div className="thermometer-header">
-        <h3>
-          <img className="peer-logo" src={Peer} alt="Peer logo"></img>Donations
-          to Peer Seattle
-        </h3>
+        <h3>Donations</h3>
       </div>
       <center>
         <div id="thermometer">
