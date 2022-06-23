@@ -64,7 +64,7 @@ export default function About() {
               <div className="col-12 col-lg-4">
                 <h4>Support Charity</h4>
                 <p>
-                  Participating local businesess are donating $1 to Peer Seattle
+                  Participating local businesses are donating $1 to Peer Seattle
                   for every low-and-no-alcohol beverage sold. Peer Seattle
                   supports the LGBTQIA+ community with mental health resources,
                   addiction recovery services, and support for those with
