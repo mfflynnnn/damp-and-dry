@@ -110,6 +110,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Sawyer/@47.667005,-122.385039,15z/data=!4m5!3m4!1s0x0:0xcab2610ce5652ede!8m2!3d47.667005!4d-122.385039",
   },
   {
+    participant: "Screwdriver Bar",
+    description:
+      "a dimly lit basement joint serving beer and cocktails, with a rock 'n' roll jukebox & pinball machines.",
+    website: "http://www.screwdriverbar.com/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/Screwdriver+Bar/@47.613995,-122.346966,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x2d9048987bed698f!8m2!3d47.613995!4d-122.346966",
+  },
+  {
     participant: "Stampede Cocktail Club",
     description: "a cool, cozy bar with clever cocktails and dumplings.",
     website: "https://www.stampedecocktailclub.com/",
