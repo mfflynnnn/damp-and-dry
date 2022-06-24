@@ -13,12 +13,26 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Cycle+Dogs/@47.6683179,-122.3808423,17z/data=!4m12!1m6!3m5!1s0x549015b818b30625:0xda390ded2885ba7c!2sCycle+Dogs!8m2!3d47.6683255!4d-122.378742!3m4!1s0x549015b818b30625:0xda390ded2885ba7c!8m2!3d47.6683255!4d-122.378742",
   },
   {
+    participant: "Deep Dive",
+    description: ".",
+    website: "",
+    brandsOffered: [""],
+    mapLink: "",
+  },
+  {
     participant: "Dreamland Bar & Diner",
     description: "a funky spot for cocktails and comfort food.",
     website: "https://www.dreamlandfremont.com/",
     brandsOffered: ["Athletic Brewing Co", "Spiritless", "The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Dreamland+Bar+%26+Diner/@47.6501148,-122.3516283,15z/data=!4m2!3m1!1s0x0:0x58c5c6016bf51618?sa=X&ved=2ahUKEwjQm93Cnaj3AhUqIzQIHVWbCQIQ_BJ6BAheEAU",
+  },
+  {
+    participant: "Foreign National",
+    description: ".",
+    website: "",
+    brandsOffered: [""],
+    mapLink: "",
   },
   {
     participant: "Lady Jaye",
@@ -47,7 +61,7 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Liberty/@47.623578,-122.3128231,15z/data=!4m2!3m1!1s0x0:0xa633c381ed937814?sa=X&ved=2ahUKEwjttMiy07v3AhVwJTQIHQGlArwQ_BJ6BAhvEAU",
   },
   {
-    participant: "Life on Mars",
+    participant: "Life On Mars",
     description:
       "a stylish, music-focused bar with a wide range of cocktails and vegan fare.",
     website: "https://lifeonmarsseattle.com/",
@@ -89,6 +103,22 @@ const arrayOfObjects = [
     brandsOffered: ["Lyre's", "The Pathfinder", "Wilderton"],
     mapLink:
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
+  },
+  {
+    participant: "Stateside",
+    description: ".",
+    website: "",
+    brandsOffered: [""],
+    mapLink: "",
+  },
+  {
+    participant: "STELLA",
+    description:
+      "an upscale dining and drinking spot located in Hotel Sorrento, with a well-curated menu.",
+    website: "https://www.stellaseattle.com/",
+    brandsOffered: ["NLL", "Giffard", "Wilderton"],
+    mapLink:
+      "https://www.google.com/maps/place/STELLA./@47.6088852,-122.3290863,17z/data=!3m1!4b1!4m5!3m4!1s0x54906ab615cfef57:0xcbf74e5bebe15068!8m2!3d47.6089267!4d-122.3267932",
   },
   {
     participant: "Trade Winds Tavern",
