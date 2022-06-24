@@ -7,9 +7,10 @@ import Aperol from "./Aperol.png";
 import Buzzkill from "./Buzzkill.png";
 import Dhos from "./Dhos.png";
 import Dry from "./Dry.png";
+import Giffard from "./Giffard.png";
 import Gruvi from "./Gruvi.png";
 import Joyus from "./Jøyus.png";
-//import Lyres from "./Lyres.png";
+import Lyres from "./Lyres.png";
 import NLL from "./NLL.png";
 import Noughty from "./Noughty.png";
 import Partake from "./Partake.png";
@@ -68,6 +69,13 @@ const arrayOfObjects = [
       "Dry Botanical Bubbly: the zero-proof option for every celebration.",
   },
   {
+    brand: "Giffard",
+    website: "https://backbarproject.com/portfolio/giffard/",
+    instagram: "https://www.instagram.com/backbarproject/",
+    logo: Giffard,
+    description: "complex, versatile, sophisticated bar syrups.",
+  },
+  {
     brand: "Grüvi",
     website: "https://www.getgruvi.com/",
     instagram: "https://www.instagram.com/getgruvi/",
@@ -82,6 +90,14 @@ const arrayOfObjects = [
     logo: Joyus,
     description:
       "non-alcoholic wine that not only tastes like wine, but tastes like great wine.",
+  },
+  {
+    brand: "Lyre's",
+    website: "https://lyres.com/",
+    instagram: "https://www.instagram.com/lyresspiritco/",
+    logo: Lyres,
+    description:
+      "the most diverse and awarded non-alcoholic spirits in the world. Stay Spirited. Make it a Lyre’s",
   },
   {
     brand: "NLL",
