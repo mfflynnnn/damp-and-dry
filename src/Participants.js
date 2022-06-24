@@ -14,10 +14,12 @@ const arrayOfObjects = [
   },
   {
     participant: "Deep Dive",
-    description: ".",
-    website: "",
-    brandsOffered: [""],
-    mapLink: "",
+    description:
+      "a posh, vintage-chic hideaway with a speakeasy vibe, offering cocktails and upscale European bar snacks.",
+    website: "http://www.deepdiveseattle.com/",
+    brandsOffered: ["Wilderton", "NLL", "The Pathfinder"],
+    mapLink:
+      "https://www.google.com/maps/place/Deep+Dive/@47.6156405,-122.3415608,17z/data=!4m12!1m6!3m5!1s0x549015b6f3091d2d:0x26b2ef29e9a9164a!2sDeep+Dive!8m2!3d47.6156405!4d-122.3393721!3m4!1s0x549015b6f3091d2d:0x26b2ef29e9a9164a!8m2!3d47.6156405!4d-122.3393721",
   },
   {
     participant: "Dreamland Bar & Diner",
@@ -29,17 +31,19 @@ const arrayOfObjects = [
   },
   {
     participant: "Foreign National",
-    description: ".",
-    website: "",
-    brandsOffered: [""],
-    mapLink: "",
+    description:
+      "a space for highbrow cocktails and snacks from around the globe, served in dark digs lit by a disco ball.",
+    website: "https://www.foreignnationalbar.com/",
+    brandsOffered: ["The Pathfinder"],
+    mapLink:
+      "https://www.google.com/maps/place/Foreign+National/@47.6142326,-122.3296399,17z/data=!3m1!4b1!4m5!3m4!1s0x54906acade27de6d:0x315374a72140050!8m2!3d47.6141927!4d-122.3274519",
   },
   {
     participant: "Lady Jaye",
     description:
-      "a rustic-chic spot for smoked meats, sides & cocktails plus a large outdoor fire pit.",
+      "a rustic-chic spot for smoked meats, sides, and cocktails plus a large outdoor fire pit.",
     website: "https://ladyjaye.com/",
-    brandsOffered: ["Coming Soon!"],
+    brandsOffered: ["Athletic Brewing Co.", "Wilderton", "The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Lady+Jaye/@47.562216,-122.3891935,17z/data=!3m2!4b1!5s0x549040f994fc503b:0xee9c602a3f5c55bc!4m5!3m4!1s0x54904107ce9396cd:0xba6856cd77ac7fa3!8m2!3d47.5622124!4d-122.3870048",
   },
@@ -56,7 +60,7 @@ const arrayOfObjects = [
     participant: "Liberty Bar",
     description: "a sleek bar with craft cocktails and sushi.",
     website: "http://www.libertybars.com/",
-    brandsOffered: ["The Pathfinder", "Wilderton"],
+    brandsOffered: ["Jøyous", "The Pathfinder", "Wilderton"],
     mapLink:
       "https://www.google.com/maps/place/Liberty/@47.623578,-122.3128231,15z/data=!4m2!3m1!1s0x0:0xa633c381ed937814?sa=X&ved=2ahUKEwjttMiy07v3AhVwJTQIHQGlArwQ_BJ6BAhvEAU",
   },
@@ -65,7 +69,7 @@ const arrayOfObjects = [
     description:
       "a stylish, music-focused bar with a wide range of cocktails and vegan fare.",
     website: "https://lifeonmarsseattle.com/",
-    brandsOffered: ["Athletic Brewing Co and The Pathfinder"],
+    brandsOffered: ["Athletic Brewing Co.", "NLL", "The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
   },
@@ -88,11 +92,20 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Rob+Roy/@47.6147616,-122.3487739,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x5490154e7fc7b323:0xe77d652d918c26a4!2sRob+Roy!8m2!3d47.6147616!4d-122.3465852!10e1!3m4!1s0x5490154e7fc7b323:0xe77d652d918c26a4!8m2!3d47.6147616!4d-122.3465852",
   },
   {
+    participant: "Rumba and Inside Passage",
+    description:
+      "a Caribbean-inspired bar with 200+ rums & a sophisticated '50s island vibe and Hemingway books.",
+    website: "https://www.rumbaonpike.com/",
+    brandsOffered: ["Giffard", "Wilderton", "The Pathfinder"],
+    mapLink:
+      "https://www.google.com/maps/place/Rumba/@47.6138439,-122.3308532,17z/data=!4m13!1m7!3m6!1s0x54906acac1c848eb:0x1dcdcc9a84f10ab2!2sRumba!8m2!3d47.6138723!4d-122.3285972!10e1!3m4!1s0x54906acac1c848eb:0x1dcdcc9a84f10ab2!8m2!3d47.6138723!4d-122.3285972",
+  },
+  {
     participant: "Sawyer",
     description:
       "a rustic, airy eatery and bar with American comfort food and a patio.",
     website: "http://sawyerseattle.com/",
-    brandsOffered: ["NLL", "All The Bitter", "Dry"],
+    brandsOffered: ["Dry", "All The Bitter", "NLL"],
     mapLink:
       "https://www.google.com/maps/place/Sawyer/@47.667005,-122.385039,15z/data=!4m5!3m4!1s0x0:0xcab2610ce5652ede!8m2!3d47.667005!4d-122.385039",
   },
@@ -100,23 +113,25 @@ const arrayOfObjects = [
     participant: "Stampede Cocktail Club",
     description: "a cool, cozy bar with clever cocktails and dumplings.",
     website: "https://www.stampedecocktailclub.com/",
-    brandsOffered: ["Lyre's", "The Pathfinder", "Wilderton"],
+    brandsOffered: ["Lyre's", "Wilderton", "The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
   },
   {
     participant: "Stateside",
-    description: ".",
-    website: "",
-    brandsOffered: [""],
-    mapLink: "",
+    description:
+      "a modern & laid-back space for French & Vietnamese fusion fare in a historic setting.",
+    website: "https://www.statesideseattle.com/",
+    brandsOffered: ["The Pathfinder"],
+    mapLink:
+      "https://www.google.com/maps/place/Stateside/@47.6141806,-122.3298387,17z/data=!4m13!1m7!3m6!1s0x54906acae09d66b7:0x29fadc62f7e079b5!2sStateside!8m2!3d47.6141365!4d-122.3276508!10e1!3m4!1s0x54906acae09d66b7:0x29fadc62f7e079b5!8m2!3d47.6141365!4d-122.3276508",
   },
   {
     participant: "STELLA",
     description:
       "an upscale dining and drinking spot located in Hotel Sorrento, with a well-curated menu.",
     website: "https://www.stellaseattle.com/",
-    brandsOffered: ["NLL", "Giffard", "Wilderton"],
+    brandsOffered: ["Giffard", "NLL", "Wilderton"],
     mapLink:
       "https://www.google.com/maps/place/STELLA./@47.6088852,-122.3290863,17z/data=!3m1!4b1!4m5!3m4!1s0x54906ab615cfef57:0xcbf74e5bebe15068!8m2!3d47.6089267!4d-122.3267932",
   },
@@ -131,7 +146,7 @@ const arrayOfObjects = [
   {
     participant: "Vinnie's Wine Shop",
     description:
-      "a chill, pocket-sized raw seafood bar specializing in local fare & a well-curated natural wine list.",
+      "a chill, pocket-sized raw seafood bar specializing in local fare and a well-curated natural wine list.",
     website: "https://www.vinniesseattle.com/",
     brandsOffered: ["The Pathfinder"],
     mapLink:
@@ -140,7 +155,7 @@ const arrayOfObjects = [
   {
     participant: "Watershed Pub & Kitchen",
     description:
-      "a bright, lofty pub offering curated beers, cider & local spirits alongside pizzas & sandwiches.",
+      "a bright, lofty pub offering curated beers, cider, and local spirits alongside pizzas & sandwiches.",
     website: "https://www.watershedpub.com/",
     brandsOffered: ["Lyre's"],
     mapLink:
