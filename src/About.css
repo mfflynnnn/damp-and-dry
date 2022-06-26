@@ -69,6 +69,13 @@ h2 {
   .hero-block .video {
     padding: 1vw;
   }
+  .About .About-content {
+    background-image: unset;
+  }
+
+  .About .hero-block {
+    background-color: #eb5f4e;
+  }
 }
 
 @media screen and (min-width: 1000px) {

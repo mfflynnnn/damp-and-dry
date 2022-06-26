@@ -29,3 +29,13 @@
 .Nav button {
   color: #eb5f4e;
 }
+
+@media screen and (max-width: 900px) {
+  .collapse:not(.show) {
+    display: inline-block !important;
+  }
+
+  .Nav .list-group {
+    display: none;
+  }
+}
