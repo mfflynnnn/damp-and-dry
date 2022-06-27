@@ -8,10 +8,10 @@ import Thermometer from "./Thermometer";
 export default function About() {
   return (
     <div className="About row">
-      <div className="nav-container col-2">
+      <div className="nav-container col-md-2">
         <Nav />
       </div>
-      <div className="About-content col-10">
+      <div className="About-content col-md-10">
         <div className="row hero-block">
           <div className="col-12 video">
             <h1>Welcome!</h1>
@@ -20,11 +20,11 @@ export default function About() {
           </div>
         </div>
         <div className="row donation-row">
-          <div className="col-2"></div>
-          <div className="col-4 thermometer">
+          <div className="col-lg-2 col-md-0"></div>
+          <div className="col-lg-4 col-md-12 thermometer">
             <Thermometer />
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-12">
             <img className="peer-logo" src={Peer} alt="Peer logo"></img>
             <a
               href="https://www.paypal.com/donate/?hosted_button_id=AFWVPSRLE2M7L"
@@ -36,7 +36,7 @@ export default function About() {
               Donate to Peer Seattle
             </a>
           </div>
-          <div className="col-2"></div>
+          <div className="col-lg-2 col-md-0"></div>
         </div>
         <div className="row main-content">
           <div className="col-12">
