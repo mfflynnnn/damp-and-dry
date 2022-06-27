@@ -5,6 +5,15 @@ import Pin from "./icon-pin.png";
 
 const arrayOfObjects = [
   {
+    participant: "College Inn Pub",
+    description:
+      "a bustling bar with draft beers & wine, plus a small menu of American chow such as chili & sandwiches.",
+    website: "https://www.thecollegeinnpub.com/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/College+Inn+Pub/@47.6554861,-122.3129806,15z/data=!4m5!3m4!1s0x0:0x388472926b082e0a!8m2!3d47.6554861!4d-122.3129806",
+  },
+  {
     participant: "Cycle Dogs",
     description: "THE go-to spot for vegan fast food served in a casual space.",
     website: "https://cycle-dogs.square.site/",
@@ -37,6 +46,15 @@ const arrayOfObjects = [
     brandsOffered: ["The Pathfinder"],
     mapLink:
       "https://www.google.com/maps/place/Foreign+National/@47.6142326,-122.3296399,17z/data=!3m1!4b1!4m5!3m4!1s0x54906acade27de6d:0x315374a72140050!8m2!3d47.6141927!4d-122.3274519",
+  },
+  {
+    participant: "JarrBar",
+    description:
+      "a a cool, cozy bar serving cocktails & Spanish libations served with Iberian-style small plates.",
+    website: "http://www.jarrbar.com/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/JarrBar/@47.6082299,-122.3429764,17z/data=!4m13!1m7!3m6!1s0x0:0x78d30d5e7c459304!2sJarrBar!8m2!3d47.608224!4d-122.3408324!10e1!3m4!1s0x0:0x78d30d5e7c459304!8m2!3d47.608224!4d-122.3408324",
   },
   {
     participant: "Lady Jaye",
