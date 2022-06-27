@@ -8,10 +8,10 @@ import Thermometer from "./Thermometer";
 export default function About() {
   return (
     <div className="About row">
-      <div className="nav-container col-md-2">
+      <div className="nav-container col-2">
         <Nav />
       </div>
-      <div className="About-content col-md-10">
+      <div className="About-content col-10">
         <div className="row hero-block">
           <div className="col-12 video">
             <h1>Welcome!</h1>
