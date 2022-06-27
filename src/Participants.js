@@ -172,6 +172,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Tavern+Law/@47.613254,-122.3252777,15z/data=!4m13!1m7!3m6!1s0x0:0xaff3f0fece63d53d!2sTavern+Law!8m2!3d47.6132549!4d-122.3165689!10e1!3m4!1s0x0:0xaff3f0fece63d53d!8m2!3d47.6132549!4d-122.3165689",
   },
   {
+    participant: "The George and Dragon Pub",
+    description:
+      "a relaxed hangout where fans watch soccer, eat British pub grub, and sip pints.",
+    website: "https://theegeorge.com/",
+    brandsOffered: ["Coming Soon!"],
+    mapLink:
+      "https://www.google.com/maps/place/The+George+%26+Dragon+Pub/@47.6530184,-122.3561637,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd334cf62d12db3ab!8m2!3d47.652953!4d-122.3561635",
+  },
+  {
     participant: "Trade Winds Tavern",
     description: "an inclusive corner pub with cool supper club vibes.",
     website: "https://www.tradewindstavern.net/",
