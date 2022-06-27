@@ -145,6 +145,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/STELLA./@47.6088852,-122.3290863,17z/data=!3m1!4b1!4m5!3m4!1s0x54906ab615cfef57:0xcbf74e5bebe15068!8m2!3d47.6089267!4d-122.3267932",
   },
   {
+    participant: "Tavern Law",
+    description:
+      "a sophisticated space with a speakeasy vibe, serving high-end vintage cocktails & American fare.",
+    website: "https://www.tavernlaw.com/",
+    brandsOffered: ["Wilderton"],
+    mapLink:
+      "https://www.google.com/maps/place/Tavern+Law/@47.613254,-122.3252777,15z/data=!4m13!1m7!3m6!1s0x0:0xaff3f0fece63d53d!2sTavern+Law!8m2!3d47.6132549!4d-122.3165689!10e1!3m4!1s0x0:0xaff3f0fece63d53d!8m2!3d47.6132549!4d-122.3165689",
+  },
+  {
     participant: "Trade Winds Tavern",
     description: "an inclusive corner pub with cool supper club vibes.",
     website: "https://www.tradewindstavern.net/",
