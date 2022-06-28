@@ -37,7 +37,7 @@ const arrayOfObjects = [
       "a unique bittersweet low-alcohol orange aperitivo for a refreshing and complex experience.",
   },
   {
-    brand: "Athletic Brewing Company",
+    brand: "Athletic Brewing Co.",
     website: "https://athleticbrewing.com/",
     instagram: "https://www.instagram.com/athleticbrewing/",
     logo: ABC,
