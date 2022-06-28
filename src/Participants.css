@@ -89,3 +89,21 @@
 .participants .row-3 {
   height: 40px;
 }
+
+@media screen and (max-width: 700px) {
+  .card-body {
+    font-size: 70%;
+  }
+
+  .card-body h5 {
+    font-size: 100%;
+  }
+
+  .row-2 {
+    height: 150px;
+  }
+
+  .row-3 {
+    height: 100px;
+  }
+}
