@@ -6,10 +6,10 @@ export default function Hero() {
     <center>
       <ReactPlayer
         url={heroVideo}
-        autoPlay
-        controls
         width="75%"
         height="75%"
+        autoPlay
+        controls
         className="video"
       />
     </center>

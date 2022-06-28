@@ -61,17 +61,6 @@
   padding: 20px 0 0 0;
 }
 
-.participant-brand-ul {
-  padding: 0 10px 10px 10px;
-  justify-content: space-between;
-}
-
-.participant-brand-li {
-  font-size: small;
-  display: inline-block;
-  padding: 5px;
-}
-
 .pin {
   max-width: 30px;
 }
@@ -91,8 +80,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .participants {
+    margin-top: 30px;
+  }
+
   .card-body {
-    font-size: 70%;
+    font-size: 75%;
   }
 
   .card-body h5 {

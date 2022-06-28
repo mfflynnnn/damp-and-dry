@@ -22,13 +22,6 @@ a {
   font-size: calc(10px + 2vmin);
 }
 
-.App h1 {
-  color: #242455;
-  margin: 0 auto;
-  text-indent: 182px;
-  font-size: smaller;
-}
-
 .App ul {
   margin-left: 182px;
   display: flex;
@@ -77,9 +70,5 @@ li {
 @media screen and (max-width: 925px) {
   .App-logo {
     width: 100%;
-  }
-
-  h1 {
-    text-indent: 60px;
   }
 }

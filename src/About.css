@@ -66,15 +66,26 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-  .hero-block .video {
-    padding: 1vw;
+  .video {
+    width: 100% !important;
+    height: auto !important;
+    padding: 0px !important;
   }
+
   .About .About-content {
     background-image: unset;
   }
 
   .About .hero-block {
     background-color: #eb5f4e;
+  }
+
+  .tagline {
+    font-size: 30px;
+  }
+
+  .About .main-content p {
+    text-align: center;
   }
 }
 
