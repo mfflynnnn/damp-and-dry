@@ -4,50 +4,57 @@ import { Link } from "react-router-dom";
 
 export default function HorizontalNav() {
   return (
-    <nav className="navbar fixed-top navbar-light bg-light">
-      <a className="navbar-brand" href="/">
-        <img src={Logo} className="hornav-logo" alt="Logo"></img>
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+    <div className="horizontalNav">
+      <nav
+        className="navbar fixed-top navbar-light bg-light"
+        id="horizontalNavbar"
       >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
+        <div className="container-fluid">
+          <a href="/">
+            <img src={Logo} className="hornav-logo" alt="Logo"></img>
+          </a>
+          <button
+            className="navbar-toggler ms-auto"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent3"
+            aria-controls="navbarToggleExternalContent3"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i className="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+      <div className="collapse" id="navbarToggleExternalContent3">
+        <div className="bg-light shadow-3 p-4 list-group">
+          <button className="btn btn-link btn-block border-bottom m-0">
             <Link className="nav-link" to="/">
               Home
             </Link>
-          </li>
-          <li className="nav-item">
+          </button>
+          <button className="btn btn-link btn-block border-bottom m-0">
             <Link className="nav-link" to="/about">
               About
             </Link>
-          </li>
-          <li className="nav-item">
+          </button>
+          <button className="btn btn-link btn-block m-0">
             <Link className="nav-link" to="/participants">
               Bars & Restaurants
             </Link>
-          </li>
-          <li className="nav-item">
+          </button>
+          <button className="btn btn-link btn-block m-0">
             <Link className="nav-link" to="/brands">
               Brands
             </Link>
-          </li>
-          <li className="nav-item">
+          </button>
+          <button className="btn btn-link btn-block m-0">
             <Link className="nav-link" to="/contact">
               Contact
             </Link>
-          </li>
-        </ul>
+          </button>
+        </div>
       </div>
-    </nav>
+    </div>
   );
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
 import Nav from "./Nav";
-import HoritonalNav from "./HorizontalNav";
 import Hero from "./Hero.js";
 import Peer from "./peer-seattle_logo.png";
 import Thermometer from "./Thermometer";
@@ -11,7 +10,7 @@ export default function About() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 650);
+    setDesktop(window.innerWidth > 1000);
   };
 
   useEffect(() => {
