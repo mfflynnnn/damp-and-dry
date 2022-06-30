@@ -1,25 +1,24 @@
 .hornav-logo {
-  max-width: 15%;
+  max-width: 50%;
 }
 
-#horizontalNavbar {
-  flex-wrap: nowrap;
+#horizontalNavbar #hornav-logo {
+  text-align: left;
+  width: 30%;
 }
 
-.horizontalNav button {
+button.navbar-toggler {
   color: #eb5f4e;
 }
 
-.container-fluid a {
-  text-align: left;
-}
-
 @media screen and (max-width: 1000px) {
-  .collapse:not(.show) {
-    display: inline-block !important;
+  #navbarTogglerDemo02 ul:not(.dropdown-menu) {
+    display: flex;
+    flex-wrap: wrap;
+    zoom: 1;
   }
 
-  .list-group {
-    display: none;
+  .nav-item {
+    display: hidden;
   }
 }

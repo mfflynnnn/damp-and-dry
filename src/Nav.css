@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .collapse:not(.show) {
+  #sidebarMenu:not(.show) {
     display: inline-block !important;
   }
 

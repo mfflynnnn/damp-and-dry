@@ -4,57 +4,54 @@ import { Link } from "react-router-dom";
 
 export default function HorizontalNav() {
   return (
-    <div className="horizontalNav">
-      <nav
-        className="navbar fixed-top navbar-light bg-light"
-        id="horizontalNavbar"
+    <nav
+      className="navbar navbar-expand-lg fixed-top navbar-light bg-light"
+      id="horizontalNavbar"
+    >
+      <a href="/" id="hornav-logo">
+        <img src={Logo} className="hornav-logo" alt="Logo"></img>
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <div className="container-fluid">
-          <a href="/">
-            <img src={Logo} className="hornav-logo" alt="Logo"></img>
-          </a>
-          <button
-            className="navbar-toggler ms-auto"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarToggleExternalContent3"
-            aria-controls="navbarToggleExternalContent3"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="fas fa-bars"></i>
-          </button>
-        </div>
-      </nav>
-      <div className="collapse" id="navbarToggleExternalContent3">
-        <div className="bg-light shadow-3 p-4 list-group">
-          <button className="btn btn-link btn-block border-bottom m-0">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li className="nav-item active">
             <Link className="nav-link" to="/">
               Home
             </Link>
-          </button>
-          <button className="btn btn-link btn-block border-bottom m-0">
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/about">
               About
             </Link>
-          </button>
-          <button className="btn btn-link btn-block m-0">
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/participants">
               Bars & Restaurants
             </Link>
-          </button>
-          <button className="btn btn-link btn-block m-0">
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/brands">
               Brands
             </Link>
-          </button>
-          <button className="btn btn-link btn-block m-0">
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/contact">
               Contact
             </Link>
-          </button>
-        </div>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   );
 }
