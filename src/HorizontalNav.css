@@ -7,10 +7,6 @@
   width: 30%;
 }
 
-button.navbar-toggler {
-  color: #eb5f4e;
-}
-
 @media screen and (max-width: 1000px) {
   #navbarTogglerDemo02 ul:not(.dropdown-menu) {
     display: flex;

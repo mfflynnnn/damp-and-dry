@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
+import HorizontalNav from "./HorizontalNav";
 import "./Participants.css";
 import Pin from "./icon-pin.png";
 
@@ -209,86 +210,185 @@ const arrayOfObjects = [
 ];
 
 export default function Participants() {
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 1000);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
-    <div className="participants row">
-      <div className="nav-container col-2">
-        <Nav />
-      </div>
-      <div className="main-content col-10">
-        <header>
-          <span>
-            <h1>Participating Bars & Restaurants</h1>
-          </span>
-          <span>
-            <h6>(A to Z)</h6>
-          </span>
-        </header>
-        <div className="container">
-          <div className="row row1">
-            <iframe
-              className="map"
-              title="Damp & Dry July Map"
-              src="https://www.google.com/maps/d/u/0/embed?mid=1u5U1TJjpI32SU5RtMC0_hVQoqV7IhL53&ehbc=2E312F"
-              width="500"
-              height="400"
-            ></iframe>
+    <div>
+      {isDesktop ? (
+        <div className="participants row">
+          <div className="nav-container col-2">
+            <Nav />
           </div>
-          <div className="row row2">
-            {arrayOfObjects.map(
-              ({
-                participant,
-                description,
-                website,
-                brandsOffered,
-                mapLink,
-              }) => (
-                <div key={participant} className="col-12 col-md-6 col-lg-4">
-                  <div className="card">
-                    <div className="internal-card">
-                      <div className="card-body">
-                        <div className="row row-1">
-                          <div className="col">
-                            <a href={mapLink} target="_blank" rel="noreferrer">
-                              <img
-                                className="pin"
-                                src={Pin}
-                                alt="Location Pin"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                        <div className="row row-2">
-                          <div className="col">
-                            <h5 className="card-title">
-                              <a
-                                href={website}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                {participant}
-                              </a>
-                            </h5>
-                            <p className="card-text">
-                              {participant} is {description}
-                            </p>
-                          </div>
-                        </div>
-                        <div className="row row-3">
-                          <div className="col">
-                            Low-and-No-Alcohol Offerings:
-                            <br />
-                            {brandsOffered}
+          <div className="main-content col-10">
+            <header>
+              <span>
+                <h1>Participating Bars & Restaurants</h1>
+              </span>
+              <span>
+                <h6>(A to Z)</h6>
+              </span>
+            </header>
+            <div className="container">
+              <div className="row row1">
+                <iframe
+                  className="map"
+                  title="Damp & Dry July Map"
+                  src="https://www.google.com/maps/d/u/0/embed?mid=1u5U1TJjpI32SU5RtMC0_hVQoqV7IhL53&ehbc=2E312F"
+                  width="500"
+                  height="400"
+                ></iframe>
+              </div>
+              <div className="row row2">
+                {arrayOfObjects.map(
+                  ({
+                    participant,
+                    description,
+                    website,
+                    brandsOffered,
+                    mapLink,
+                  }) => (
+                    <div key={participant} className="col-12 col-md-6 col-lg-4">
+                      <div className="card">
+                        <div className="internal-card">
+                          <div className="card-body">
+                            <div className="row row-1">
+                              <div className="col">
+                                <a
+                                  href={mapLink}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  <img
+                                    className="pin"
+                                    src={Pin}
+                                    alt="Location Pin"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                            <div className="row row-2">
+                              <div className="col">
+                                <h5 className="card-title">
+                                  <a
+                                    href={website}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    {participant}
+                                  </a>
+                                </h5>
+                                <p className="card-text">
+                                  {participant} is {description}
+                                </p>
+                              </div>
+                            </div>
+                            <div className="row row-3">
+                              <div className="col">
+                                Low-and-No-Alcohol Offerings:
+                                <br />
+                                {brandsOffered}
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              )
-            )}
+                  )
+                )}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div className="participants row">
+          <div className="horizontalNav-container">
+            <HorizontalNav />
+          </div>
+          <div className="main-content">
+            <header>
+              <h1>Participating Bars & Restaurants (A to Z)</h1>
+            </header>
+            <div className="container">
+              <div className="row row1">
+                <iframe
+                  className="map"
+                  title="Damp & Dry July Map"
+                  src="https://www.google.com/maps/d/u/0/embed?mid=1u5U1TJjpI32SU5RtMC0_hVQoqV7IhL53&ehbc=2E312F"
+                  width="500"
+                  height="400"
+                ></iframe>
+              </div>
+              <div className="row row2">
+                {arrayOfObjects.map(
+                  ({
+                    participant,
+                    description,
+                    website,
+                    brandsOffered,
+                    mapLink,
+                  }) => (
+                    <div key={participant} className="col-12 col-md-6 col-lg-4">
+                      <div className="card">
+                        <div className="internal-card">
+                          <div className="card-body">
+                            <div className="row row-1">
+                              <div className="col">
+                                <a
+                                  href={mapLink}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  <img
+                                    className="pin"
+                                    src={Pin}
+                                    alt="Location Pin"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                            <div className="row row-2">
+                              <div className="col">
+                                <h5 className="card-title">
+                                  <a
+                                    href={website}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    {participant}
+                                  </a>
+                                </h5>
+                                <p className="card-text">
+                                  {participant} is {description}
+                                </p>
+                              </div>
+                            </div>
+                            <div className="row row-3">
+                              <div className="col">
+                                Low-and-No-Alcohol Offerings:
+                                <br />
+                                {brandsOffered}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
