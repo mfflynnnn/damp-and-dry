@@ -82,3 +82,26 @@
 .row-3 a {
   color: #eb5f4e;
 }
+
+@media screen and (max-width: 1000px) {
+  .Nav {
+    display: none !important;
+  }
+
+  .brands {
+    margin-top: 30px;
+    background-repeat: repeat;
+  }
+
+  .brands .card-title {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+
+  .row-2 {
+    height: 150px;
+  }
+
+  .row-3 {
+    height: 100px;
+  }
+}

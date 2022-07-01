@@ -46,3 +46,13 @@
 .Contact footer {
   height: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+  .Nav {
+    display: none !important;
+  }
+
+  .Contact {
+    margin-top: 60px;
+  }
+}
