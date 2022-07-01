@@ -37,7 +37,7 @@ const arrayOfObjects = [
     description:
       "a bustling bar with draft beers & wine, plus a small menu of American chow such as chili & sandwiches.",
     website: "https://www.thecollegeinnpub.com/",
-    brandsOffered: "Coming Soon!",
+    brandsOffered: "Giffard, Aperol, Athletic Brewing Co",
     mapLink:
       "https://www.google.com/maps/place/College+Inn+Pub/@47.6554861,-122.3129806,15z/data=!4m5!3m4!1s0x0:0x388472926b082e0a!8m2!3d47.6554861!4d-122.3129806",
   },
