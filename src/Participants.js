@@ -6,6 +6,33 @@ import Pin from "./icon-pin.png";
 
 const arrayOfObjects = [
   {
+    participant: "Art of the Table",
+    description:
+      "an intimate eatery offering innovative locavore fare, with each course introduced by the chef-owner.",
+    website: "https://www.artofthetable.net/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Art+of+the+Table/@47.652875,-122.3427833,15z/data=!4m5!3m4!1s0x0:0x3610df087cdfff7!8m2!3d47.6528053!4d-122.3427843",
+  },
+  {
+    participant: "Boat Bar",
+    description:
+      "a Renee Erickson spot showcasing local oysters, inspired bites & libations in a splashy room.",
+    website: "https://boatbarseattle.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Boat+Bar/@47.613057,-122.3271557,15z/data=!4m13!1m7!3m6!1s0x0:0x5aa023993964d77e!2sBoat+Bar!8m2!3d47.613048!4d-122.3183912!10e1!3m4!1s0x0:0x5aa023993964d77e!8m2!3d47.613048!4d-122.3183912",
+  },
+  {
+    participant: "Broadcast Coffee - Yesler",
+    description:
+      "an independent roaster featuring artisanal espresso drinks & light fare in a sun-lit, minimalist space.",
+    website: "https://broadcastcoffeeroasters.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Broadcast+Coffee+Roasters/@47.6139246,-122.3400029,14z/data=!4m9!1m2!2m1!1sbroadcast+coffee!3m5!1s0x54906ac18a03f09d:0x91cdd4adbbbc4ebb!8m2!3d47.6018046!4d-122.3065592!15sChBicm9hZGNhc3QgY29mZmVlIgOIAQFaEiIQYnJvYWRjYXN0IGNvZmZlZZIBC2NvZmZlZV9zaG9w",
+  },
+  {
     participant: "College Inn Pub",
     description:
       "a bustling bar with draft beers & wine, plus a small menu of American chow such as chili & sandwiches.",
@@ -40,6 +67,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Dreamland+Bar+%26+Diner/@47.6501148,-122.3516283,15z/data=!4m2!3m1!1s0x0:0x58c5c6016bf51618?sa=X&ved=2ahUKEwjQm93Cnaj3AhUqIzQIHVWbCQIQ_BJ6BAheEAU",
   },
   {
+    participant: "Eight Row",
+    description:
+      "a stylish kitchen focusing on regionally sourced new American eats, plus a well-curated wine list.",
+    website: "https://www.eightrow.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Eight+Row/@47.6800976,-122.3243827,15z/data=!4m5!3m4!1s0x0:0x6b99605c738dd9b5!8m2!3d47.6800976!4d-122.3243827",
+  },
+  {
     participant: "Foreign National",
     description:
       "a space for highbrow cocktails and snacks from around the globe, served in dark digs lit by a disco ball.",
@@ -48,14 +84,25 @@ const arrayOfObjects = [
     mapLink:
       "https://www.google.com/maps/place/Foreign+National/@47.6142326,-122.3296399,17z/data=!3m1!4b1!4m5!3m4!1s0x54906acade27de6d:0x315374a72140050!8m2!3d47.6141927!4d-122.3274519",
   },
+  /*
   {
     participant: "JarrBar",
     description:
-      "a a cool, cozy bar serving cocktails & Spanish libations served with Iberian-style small plates.",
+      "a cool, cozy bar serving cocktails & Spanish libations served with Iberian-style small plates.",
     website: "http://www.jarrbar.com/",
     brandsOffered: "Coming Soon!",
     mapLink:
       "https://www.google.com/maps/place/JarrBar/@47.6082299,-122.3429764,17z/data=!4m13!1m7!3m6!1s0x0:0x78d30d5e7c459304!2sJarrBar!8m2!3d47.608224!4d-122.3408324!10e1!3m4!1s0x0:0x78d30d5e7c459304!8m2!3d47.608224!4d-122.3408324",
+  },
+  */
+  {
+    participant: "La Dive",
+    description:
+      "a cheery space with natural wine, plus frozen drinks and inventive snacks.",
+    website: "https://www.ladiveseattle.com/",
+    brandsOffered: "The Pathfinder, Athletic Brewing",
+    mapLink:
+      "https://www.google.com/maps/place/La+Dive/@47.6138934,-122.324682,17z/data=!4m13!1m7!3m6!1s0x54906b80cfd18cab:0xbeba7fb0c58f5ae3!2sLa+Dive!8m2!3d47.6138934!4d-122.3224933!10e1!3m4!1s0x54906b80cfd18cab:0xbeba7fb0c58f5ae3!8m2!3d47.6138934!4d-122.3224933",
   },
   {
     participant: "Lady Jaye",
@@ -91,6 +138,16 @@ const arrayOfObjects = [
     brandsOffered: "Athletic Brewing Co., NLL, The Pathfinder",
     mapLink:
       "https://www.google.com/maps/place/Life+On+Mars/@47.6143076,-122.3245432,17z/data=!3m1!4b1!4m5!3m4!1s0x54906b810cdc1c39:0x4290d427de0c3e04!8m2!3d47.6143076!4d-122.3223545",
+  },
+  {
+    participant: "Mad Scientist Drink Fusion Lab",
+    description:
+      "a workshop experience offering fun and engaging education on cocktails and mocktails.",
+    website:
+      "https://www.airbnb.com/experiences/1782905?s=42&unique_share_id=6EC60763-B4AA-4A01-8A63-4FD90AE6ADE8&fbclid=IwAR2DTGa40CtfUKyieVQ6N-AhgGgiEnsC1ydMmuET_eOH3JMK_wXesF3hYVk&_branch_match_id=1070110074975433530&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0zKS9LLTdWvrHCuDDKzSE0pSrJPS0rOyUyx9Sx3DDJyCXFPNDFwLkkL9a7MTA0LNPPTdcxId0%2FPdM0rdjasTPHNLXUNiU%2F19zD28vWOL49ILXYzzogMywYA4K%2FtrWAAAAA%3D",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Greenfire+Loft/@47.6147659,-122.3282092,15z/data=!4m5!3m4!1s0x0:0x197419b4db166c27!8m2!3d47.6147659!4d-122.3282092",
   },
   {
     participant: "Navy Strength",
@@ -144,15 +201,6 @@ const arrayOfObjects = [
     brandsOffered: "Lyre's, Wilderton, The Pathfinder",
     mapLink:
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
-  },
-  {
-    participant: "Stateside",
-    description:
-      "a modern & laid-back space for French & Vietnamese fusion fare in a historic setting.",
-    website: "https://www.statesideseattle.com/",
-    brandsOffered: "The Pathfinder",
-    mapLink:
-      "https://www.google.com/maps/place/Stateside/@47.6141806,-122.3298387,17z/data=!4m13!1m7!3m6!1s0x54906acae09d66b7:0x29fadc62f7e079b5!2sStateside!8m2!3d47.6141365!4d-122.3276508!10e1!3m4!1s0x54906acae09d66b7:0x29fadc62f7e079b5!8m2!3d47.6141365!4d-122.3276508",
   },
   {
     participant: "STELLA",
