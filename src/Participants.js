@@ -24,11 +24,20 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Boat+Bar/@47.613057,-122.3271557,15z/data=!4m13!1m7!3m6!1s0x0:0x5aa023993964d77e!2sBoat+Bar!8m2!3d47.613048!4d-122.3183912!10e1!3m4!1s0x0:0x5aa023993964d77e!8m2!3d47.613048!4d-122.3183912",
   },
   {
+    participant: "Broadcast Coffee - Roosevelt",
+    description:
+      "an independent roaster featuring artisanal espresso drinks & light fare in a sun-lit, minimalist space.",
+    website: "https://broadcastcoffeeroasters.com/",
+    brandsOffered: "Grüvi",
+    mapLink:
+      "https://www.google.com/maps/place/Broadcast+Coffee/@47.6762449,-122.317522,15z/data=!4m5!3m4!1s0x0:0x9f0e993ca3fb45a8!8m2!3d47.6762451!4d-122.3175054",
+  },
+  {
     participant: "Broadcast Coffee - Yesler",
     description:
       "an independent roaster featuring artisanal espresso drinks & light fare in a sun-lit, minimalist space.",
     website: "https://broadcastcoffeeroasters.com/",
-    brandsOffered: "Coming Soon!",
+    brandsOffered: "Grüvi",
     mapLink:
       "https://www.google.com/maps/place/Broadcast+Coffee+Roasters/@47.6139246,-122.3400029,14z/data=!4m9!1m2!2m1!1sbroadcast+coffee!3m5!1s0x54906ac18a03f09d:0x91cdd4adbbbc4ebb!8m2!3d47.6018046!4d-122.3065592!15sChBicm9hZGNhc3QgY29mZmVlIgOIAQFaEiIQYnJvYWRjYXN0IGNvZmZlZZIBC2NvZmZlZV9zaG9w",
   },
