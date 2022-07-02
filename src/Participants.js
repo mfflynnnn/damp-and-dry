@@ -114,6 +114,15 @@ const arrayOfObjects = [
   },
   */
   {
+    participant: "KAMP",
+    description:
+      "a chic destination opening July 2022, combining Jamaican flavor with California vibes.",
+    website: "https://www.instagram.com/kampseattle/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/KAMP/@47.623739,-122.2962827,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xf1f272a5df31bfb8!8m2!3d47.623739!4d-122.2962827",
+  },
+  {
     participant: "La Dive",
     description:
       "a cheery space with natural wine, plus frozen drinks and inventive snacks.",
