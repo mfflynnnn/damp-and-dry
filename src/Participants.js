@@ -93,6 +93,15 @@ const arrayOfObjects = [
     mapLink:
       "https://www.google.com/maps/place/Foreign+National/@47.6142326,-122.3296399,17z/data=!3m1!4b1!4m5!3m4!1s0x54906acade27de6d:0x315374a72140050!8m2!3d47.6141927!4d-122.3274519",
   },
+  {
+    participant: "Hazlewood",
+    description:
+      "a hip fixture serving craft cocktails in the rustic-chic main bar or the tiny upstairs loft.",
+    website: "https://www.facebook.com/hazlewoodbar",
+    brandsOffered: "Kentucky 74, The Pathfinder",
+    mapLink:
+      "https://www.google.com/maps/place/Hazlewood/@47.6684875,-122.3888928,17z/data=!4m13!1m7!3m6!1s0x0:0x93a0c24168b711e7!2sHazlewood!8m2!3d47.668537!4d-122.3867365!10e1!3m4!1s0x0:0x93a0c24168b711e7!8m2!3d47.668537!4d-122.3867365",
+  },
   /*
   {
     participant: "JarrBar",
