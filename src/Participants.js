@@ -71,7 +71,7 @@ const arrayOfObjects = [
     participant: "Dreamland Bar & Diner",
     description: "a funky spot for cocktails and comfort food.",
     website: "https://www.dreamlandfremont.com/",
-    brandsOffered: "Athletic Brewing Co, Spiritless, The Pathfinder",
+    brandsOffered: "Aperol, All The Bitter, Giffard",
     mapLink:
       "https://www.google.com/maps/place/Dreamland+Bar+%26+Diner/@47.6501148,-122.3516283,15z/data=!4m2!3m1!1s0x0:0x58c5c6016bf51618?sa=X&ved=2ahUKEwjQm93Cnaj3AhUqIzQIHVWbCQIQ_BJ6BAheEAU",
   },
@@ -225,7 +225,7 @@ const arrayOfObjects = [
     participant: "Stampede Cocktail Club",
     description: "a cool, cozy bar with clever cocktails and dumplings.",
     website: "https://www.stampedecocktailclub.com/",
-    brandsOffered: "Lyre's, Wilderton, The Pathfinder",
+    brandsOffered: "All The Bitter, Kentucky 74, Athletic Brewing Co.",
     mapLink:
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
   },
