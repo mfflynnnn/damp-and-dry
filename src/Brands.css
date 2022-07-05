@@ -59,7 +59,7 @@
 .brands .card-body {
   border: 3px solid #eb5f4e;
   background: white;
-  height: 200px;
+  height: 230px;
 }
 
 .brands .row-1 {
@@ -67,7 +67,7 @@
 }
 
 .brands .row-2 {
-  height: 75px;
+  height: 100px;
 }
 
 .brands .card-container {
@@ -98,7 +98,7 @@
   }
 
   .row-2 {
-    height: 150px;
+    height: 170px;
   }
 
   .row-3 {
