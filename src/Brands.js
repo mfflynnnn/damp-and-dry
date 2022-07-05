@@ -146,7 +146,7 @@ const arrayOfObjects = [
     instagram: "https://www.instagram.com/drinkthepathfinder/",
     logo: Pathfinder,
     description:
-      "a fermented and distilled hemp-based liquid with the intense characteristics of a spirit, with none of the harmful effects of alcohol.",
+      "The Pathfinder makes a fermented and distilled hemp-based liquid with all the intense characteristics of a spirit. Be a true trailblazer.",
   },
   {
     brand: "Wilderton",
