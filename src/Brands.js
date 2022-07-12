@@ -14,7 +14,7 @@ import Joyus from "./Jøyus.png";
 import Lyres from "./Lyres.png";
 import NLL from "./NLL.png";
 import Noughty from "./Noughty.png";
-import Partake from "./Partake.png";
+//import Partake from "./Partake.png";
 import Ritual from "./Ritual.png";
 import Spiritless from "./Spiritless.png";
 import Pathfinder from "./The-Pathfinder.png";
