@@ -116,14 +116,14 @@ const arrayOfObjects = [
     description:
       "alcohol-free wine that is Certified Organic, Vegan, and Halal.",
   },
-  {
+  /*{
     brand: "Partake",
     website: "https://drinkpartake.com/",
     instagram: "https://www.instagram.com/partakebrewing/",
     logo: Partake,
     description:
       "a wide selection of authentically brewed, low-calorie-count, non-alcoholic beer.",
-  },
+  },*/
   {
     brand: "Ritual",
     website: "https://www.ritualzeroproof.com/",

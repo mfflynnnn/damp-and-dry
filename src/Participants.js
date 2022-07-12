@@ -42,6 +42,24 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Broadcast+Coffee+Roasters/@47.6139246,-122.3400029,14z/data=!4m9!1m2!2m1!1sbroadcast+coffee!3m5!1s0x54906ac18a03f09d:0x91cdd4adbbbc4ebb!8m2!3d47.6018046!4d-122.3065592!15sChBicm9hZGNhc3QgY29mZmVlIgOIAQFaEiIQYnJvYWRjYXN0IGNvZmZlZZIBC2NvZmZlZV9zaG9w",
   },
   {
+    participant: "Carrello",
+    description:
+      "a roomy, rustic-chic space with handmade pastas plus an antipasti dim sum cart.",
+    website: "https://www.carrellorestaurant.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Carrello/@47.6249584,-122.3206748,15z/data=!4m5!3m4!1s0x0:0xb18695eb858d14e6!8m2!3d47.6249584!4d-122.3206748",
+  },
+  {
+    participant: "Civility & Unrest",
+    description:
+      "a plush, modern craft cocktail bar where drinks made with local spirits are paired with Northwest-inspired small plates.",
+    website: "https://civilityandunrest.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Civility+%26+Unrest/@47.614832,-122.2007339,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x172be33bfa696b02!8m2!3d47.614832!4d-122.2007339",
+  },
+  {
     participant: "College Inn Pub",
     description:
       "a bustling bar with draft beers & wine, plus a small menu of American chow such as chili & sandwiches.",
@@ -94,13 +112,30 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/Foreign+National/@47.6142326,-122.3296399,17z/data=!3m1!4b1!4m5!3m4!1s0x54906acade27de6d:0x315374a72140050!8m2!3d47.6141927!4d-122.3274519",
   },
   {
+    participant: "Hattie's Hat",
+    description: "a funky spot for comfort food, cocktails, and live events.",
+    website: "https://hatties-hat.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Hattie's+Hat+Restaurant/@47.666085,-122.383182,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x42aecee8b8768757!8m2!3d47.6661561!4d-122.3830924",
+  },
+  {
     participant: "Hazlewood",
     description:
       "a hip fixture serving craft cocktails in the rustic-chic main bar or the tiny upstairs loft.",
     website: "https://www.facebook.com/hazlewoodbar",
-    brandsOffered: "Kentucky 74, The Pathfinder",
+    brandsOffered: "Spiritless, The Pathfinder",
     mapLink:
       "https://www.google.com/maps/place/Hazlewood/@47.6684875,-122.3888928,17z/data=!4m13!1m7!3m6!1s0x0:0x93a0c24168b711e7!2sHazlewood!8m2!3d47.668537!4d-122.3867365!10e1!3m4!1s0x0:0x93a0c24168b711e7!8m2!3d47.668537!4d-122.3867365",
+  },
+  {
+    participant: "Herb & Bitter Public House",
+    description:
+      "a Spanish-influenced bar & eatery serving up snacks & mains, cocktails & beer.",
+    website: "https://www.herbandbitter.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Herb+%26+Bitter+Public+House/@47.62361,-122.3227747,17z/data=!4m13!1m7!3m6!1s0x0:0xa0ff2fdef2d3fe77!2sHerb+%26+Bitter+Public+House!8m2!3d47.62361!4d-122.320586!10e1!3m4!1s0x0:0xa0ff2fdef2d3fe77!8m2!3d47.62361!4d-122.320586",
   },
   /*
   {
@@ -113,6 +148,15 @@ const arrayOfObjects = [
       "https://www.google.com/maps/place/JarrBar/@47.6082299,-122.3429764,17z/data=!4m13!1m7!3m6!1s0x0:0x78d30d5e7c459304!2sJarrBar!8m2!3d47.608224!4d-122.3408324!10e1!3m4!1s0x0:0x78d30d5e7c459304!8m2!3d47.608224!4d-122.3408324",
   },
   */
+  {
+    participant: "Jules Maes Saloon",
+    description:
+      "an historic hangout serving pub grub, with a back room for live music, pinball, Ping-Pong & air hockey.",
+    website: "https://www.julesmaessaloon.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Jules+Maes+Saloon/@47.5495806,-122.3174943,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xbd6ef184cc632568!8m2!3d47.5496054!4d-122.3174402",
+  },
   {
     participant: "KAMP",
     description:
@@ -225,7 +269,7 @@ const arrayOfObjects = [
     participant: "Stampede Cocktail Club",
     description: "a cool, cozy bar with clever cocktails and dumplings.",
     website: "https://www.stampedecocktailclub.com/",
-    brandsOffered: "All The Bitter, Kentucky 74, Athletic Brewing Co.",
+    brandsOffered: "All The Bitter, Spiritless, Athletic Brewing Co.",
     mapLink:
       "https://www.google.com/maps/place/Stampede+Cocktail+Club/@47.6525473,-122.3568219,15z/data=!4m5!3m4!1s0x0:0x4f839f3593a28dfc!8m2!3d47.6525804!4d-122.3568056",
   },
@@ -281,6 +325,15 @@ const arrayOfObjects = [
     brandsOffered: "Lyre's",
     mapLink:
       "https://www.google.com/maps/place/Watershed+Pub+%26+Kitchen/@47.7019446,-122.3277247,17z/data=!3m1!4b1!4m5!3m4!1s0x549013ffb06eec81:0xd7854c72eda7bf6c!8m2!3d47.701941!4d-122.325536",
+  },
+  {
+    participant: "Witness",
+    description:
+      "a lively bar with craft cocktails & filling Southern fare served in a space sporting church pews.",
+    website: "http://witnessbar.com/",
+    brandsOffered: "Coming Soon!",
+    mapLink:
+      "https://www.google.com/maps/place/Witness/@47.6223367,-122.3229344,17z/data=!4m13!1m7!3m6!1s0x0:0x81c44b1a7e41d1f9!2sWitness!8m2!3d47.6223367!4d-122.3207457!10e1!3m4!1s0x0:0x81c44b1a7e41d1f9!8m2!3d47.6223367!4d-122.3207457",
   },
 ];
 
